@@ -38,7 +38,7 @@ This design was tested in week beginning May 3rd 2021.
 
 ### Overview
 
-* Change
+* Change ... 
 
 ### Case list
 
