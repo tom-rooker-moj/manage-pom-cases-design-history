@@ -1,7 +1,7 @@
 ---
 title: HOMD allocate a POM journey 1
 description: Design proposal allowing HOMDs to follow a 3 step process to allocate cases to POMs.
-date: 2021-05-19
+date: 2021-05-26
 ---
 
 ## Summary
@@ -18,17 +18,21 @@ This design was tested March 2021.
 
 As a HOMD
 I need to understand enough information* about the person in prison
-So that I can match them with the right type of POM.
+So that I can match them with the right type of POM and the right individual POM (depending on skills, experience etc).
 
  _* information needs will vary depending on HOMD working style, stage of sentence, and prison type_
 
 As a HOMD
-I need to understand my team’s workload and capacity
+I need to understand my team’s workload and capacity and their skills and experience
 So that I can distribute cases fairly and support my staff as needed.
 
 As a POM
 I need to know when I am allocated a new case
 So that I can get to know the individual and start working on the case.
+
+As a HOMD
+I need to inform other people in the prison about the allocation (e.g. case admin, HOMS)
+So that they can do their work in relation to the case
 
 As another member of staff who will be working with the individual
 I need to know who their allocated POM is
@@ -38,23 +42,31 @@ So that I can work with the POM to support the individual.
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
   items: [{
-      text: "Overview",
-      img: { src: "01-overview.png" }
+      text: "Make allocations list",
+      img: { src: "01-make-allocations-list.png" }
     }, {
-      text: "Case list",
-      img: { src: "02-case-list.png" }
+      text: "Review case details",
+      img: { src: "02-review-case-details.png" }
     }, {
-      text: "Cases missing com details",
-      img: { src: "03-cases-missing-com-details.png" }
+      text: "View case activity",
+      img: { src: "03-view-case-activity.png" }
     }, {
-      text: "Manage email reminders",
-      img: { src: "04-manage-email-reminders.png" }
+      text: "Choose a POM",
+      img: { src: "04-choose-a-pom.png" }
     }, {
-      text: "Record handover progress",
-      img: { src: "05-record-handover-progress.png" }
+      text: "Notify people about the allocation",
+      img: { src: "05-notify-people-about-allocation.png" }
     }, {
-      text: "OASys task",
-      img: { src: "06-oasys-task.png" }
+      text: "Add new contact",
+      img: { src: "06-add-new-contact.png" }
+    }
+    }, {
+      text: "Update existing contact",
+      img: { src: "07-update-existing-contact.png" }
+    }
+    }, {
+      text: "Confirmation message make allocations list",
+      img: { src: "08-confirmation-make-allocations.png" }
     }]
 }) }}
 
