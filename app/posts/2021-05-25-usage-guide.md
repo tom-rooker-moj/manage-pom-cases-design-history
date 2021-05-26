@@ -1,5 +1,5 @@
 ---
-title: Quick how-to guide
+title: How to create posts
 description: Few notes on how to use summarised from https://design-history.herokuapp.com/
 date: 2021-05-25
 ---
