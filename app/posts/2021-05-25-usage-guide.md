@@ -1,6 +1,6 @@
 ---
 title: How to create posts
-description: Few notes on how to use summarised from https://design-history.herokuapp.com/
+description: Quick start guide summarised from https://design-history.herokuapp.com/
 date: 2021-05-25
 ---
 
@@ -28,5 +28,7 @@ slug is the text you want to appear in the URL
 3. In the terminal, type:
 
 node scripts/generate.js [name-of-directory-holding-images]
+
+For example, enter node scripts/generate.js pom-handover-v1
 
 This will generate an index page with screenshots listed in order, creating a post using the name of the containing folder. You can add other content after the images in markdown.
