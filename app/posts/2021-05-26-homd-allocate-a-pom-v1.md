@@ -17,10 +17,10 @@ This design was tested March 2021.
 ## User stories
 
 As a HOMD
-I need to understand enough information* about the person in prison
+I need to understand enough information about the person in prison
 So that I can match them with the right type of POM and the right individual POM (depending on skills, experience etc).
 
- _* information needs will vary depending on HOMD working style, stage of sentence, and prison type_
+Note: HOMD information needs will vary depending on HOMD working style, stage of sentence, and prison type
 
 As a HOMD
 I need to understand my team’s workload and capacity and their skills and experience
