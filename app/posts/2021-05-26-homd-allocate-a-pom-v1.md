@@ -82,20 +82,20 @@ View the research deck: https://docs.google.com/presentation/d/1fMG92CvtfVQfW_BX
 * Do not use the blue service user summary banner. This is the 3rd time we’ve tested this with users and they have failed to see it for the 3rd time. There is an issue with this component. This finding has been shared within the probation designers CoP
 * Use the accordion pattern (or similar) to collapse sections to make the view more compact. For some users we are displaying too little information about a case, for others too much. Allow the user to choose what information they need to see. Digital Prison Services (DPS) have done some interesting things with accordions on their prisoner profile page
 * Restructure the information architecture in the tables to create the following sections:
-..* Sentence
-..* Offence
-..* Case management and handover
-..* Risks and needs
-..* Offender Management contacts
+Sentence
+Offence
+Case management and handover
+Risks and needs
+Offender Management contacts
 * Pull out the most important information and display it to all users by default. Including:
-⋅⋅* Tier
-⋅⋅* Identifiable information (name, date of birth, NOMIS ID)
-⋅⋅* Risks and alerts that will affect allocation (more details below)
-..* Sentence type
-..* Main offence
-..* Release Date
-..* Whether a recall or parole eligible case
-..* Details of previous allocation to an active POM in that prison
+Tier
+Identifiable information (name, date of birth, NOMIS ID)
+Risks and alerts that will affect allocation (more details below)
+Sentence type
+Main offence
+Release Date
+Whether a recall or parole eligible case
+Details of previous allocation to an active POM in that prison
 * Display the date of the most recent OASys assessment and, if possible, the type of assessment
 * Display a breakdown of risk: what is the risk level and who is the risk against? The Assess risks and needs team in the Probation Programme have done some work around this
 * Display NOMIS/ DPS alerts that will affect an allocation decision, including risk to females, racist, risk to staff
