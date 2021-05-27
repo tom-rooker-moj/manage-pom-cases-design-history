@@ -62,11 +62,3 @@ This design was tested in week beginning May 3rd 2021.
 * Policy and best practice suggests 8 weeks is enough time to send an email notifying POMs that handover is approaching. Some POMs were surprised by how much lead time we were suggesting. We need to provide explanation in hint text about why this is the right amount of notice.
 * On the missing COM details reminder, remove reference to one week. Consider replacing with just "overdue".
 * COM handover meeting reminder – rephrase as it's the COM who owns the meeting and broaden focus to make it more about establishing informal communication with the COM
-
-### Record handover progress
-
-* Change
-
-### OASys task
-
-* Change
