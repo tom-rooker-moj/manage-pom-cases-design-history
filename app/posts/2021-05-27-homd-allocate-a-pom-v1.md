@@ -1,5 +1,5 @@
 ---
-title: HOMD allocate a pom v1
+title: Homd allocate a pom v1
 description: Design proposal allowing HOMDs to follow a 3 step process to allocate cases to POMs.
 date: 2021-05-27
 ---
