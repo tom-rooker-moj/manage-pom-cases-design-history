@@ -1,5 +1,5 @@
 ---
-title: Homd allocate a pom v1
+title: HOMD allocate a pom v1
 description: Design proposal allowing HOMDs to follow a 3 step process to allocate cases to POMs.
 date: 2021-05-27
 ---
@@ -16,10 +16,10 @@ This design was tested March 2021.
 # User stories
 
 As a HOMD
-I need to understand enough information* about the person in prison
+I need to understand enough information about the person in prison
 So that I can match them with the right type of POM and the right individual POM (depending on skills, experience etc).
 
-* information needs will vary depending on HOMD working style, stage of sentence, and prison type_
+Note: HOMD information needs will vary depending on HOMD working style, stage of sentence, and prison type
 
 As a HOMD
 I need to understand my team’s workload and capacity and their skills and experience
@@ -79,19 +79,19 @@ View the research deck: https://docs.google.com/presentation/d/1fMG92CvtfVQfW_BX
 * Do not use the blue service user summary banner. This is the 3rd time we’ve tested this with users and they have failed to see it for the 3rd time. There is an issue with this component. This finding has been shared within the probation designers CoP
 * Use the accordion pattern (or similar) to collapse sections to make the view more compact. For some users we are displaying too little information about a case, for others too much. Allow the user to choose what information they need to see. Digital Prison Services (DPS) have done some interesting things with accordions on their prisoner profile page
 * Restructure the information architecture in the tables to create the following sections:
-* Sentence
-* Offence
-* Case management and handover
-* Risks and needs
-* Offender Management contacts
+1. Sentence
+2. Offence
+3. Case management and handover
+4. Risks and needs
+5. Offender Management contacts
 * Pull out the most important information and display it to all users by default. Including:
-* Tier
-* Identifiable information (name, date of birth, NOMIS ID)
-* Risks and alerts that will affect allocation (more details below)
-* Sentence type
-* Main offence
-* Release Date
-* Whether a recall or parole eligible case
+1. Tier
+2. Identifiable information (name, date of birth, NOMIS ID)
+3. Risks and alerts that will affect allocation (more details below)
+4. Sentence type
+5. Main offence
+6. Release Date
+7. Whether a recall or parole eligible case
 * Details of previous allocation to an active POM in that prison
 * Display the date of the most recent OASys assessment and, if possible, the type of assessment
 * Display a breakdown of risk: what is the risk level and who is the risk against? The Assess risks and needs team in the Probation Programme have done some work around this
