@@ -4,7 +4,7 @@ description: Design proposal allowing HOMDs to follow a 3 step process to alloca
 date: 2021-05-27
 ---
 
-# Summary
+## Summary
 
 Design proposal allowing HOMDs to follow a 3 step process to allocate cases to POMs.
 1. Review the case
@@ -13,7 +13,7 @@ Design proposal allowing HOMDs to follow a 3 step process to allocate cases to P
 
 This design was tested March 2021.
 
-# User stories
+## User stories
 
 As a HOMD
 I need to understand enough information about the person in prison
@@ -36,10 +36,6 @@ So that they can do their work in relation to the case
 As another member of staff who will be working with the individual
 I need to know who their allocated POM is
 So that I can work with the POM to support the individual.
-
-# User testing
-
-View the research deck: https://docs.google.com/presentation/d/1fMG92CvtfVQfW_BXlfDNzf7UgLfdR-ebzFa2dFE-UmU/edit?usp=sharing
 
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
@@ -71,9 +67,13 @@ View the research deck: https://docs.google.com/presentation/d/1fMG92CvtfVQfW_BX
     }]
 }) }}
 
-# What will change on each screen in the next iteration
+## User testing
 
-# Review the case
+View the research deck: https://docs.google.com/presentation/d/1fMG92CvtfVQfW_BXlfDNzf7UgLfdR-ebzFa2dFE-UmU/edit?usp=sharing
+
+## What will change on each screen in the next iteration
+
+### Review the case
 
 * Include this information on the same page as the ‘Choose a POM’ table. Splitting this into two screens made the journey feel longer to users and prevented them from skimming between task 1 review case, and task 2 choose a POM
 * Do not use the blue service user summary banner. This is the 3rd time we’ve tested this with users and they have failed to see it for the 3rd time. There is an issue with this component. This finding has been shared within the probation designers CoP
@@ -101,14 +101,14 @@ View the research deck: https://docs.google.com/presentation/d/1fMG92CvtfVQfW_BX
 * There are technical issues with showing how far through a sentence somebody is, so we cannot include the visualisation although some participants found it useful. If it could be included in the future, make it custody specific. For example, time left in custody until release on license / parole eligibility
 * There are technical limitations with linking directly to OASys, although participants found this helpful
 
-# Choose a POM
+### Choose a POM
 
 * Use ‘tier mix’ bars
 * Explore options around a toggle to allow user to switch view (by tier mix bars or by numeric columns). Some users prefer seeing numeric information without the bars
 * Include previously allocated POM details in the table and above the table
 * Explore design options that allow the person allocating to compare the workload of 2 or 3 POMs in more detail. This could be as simple as linking directly to the View a POM caseload page within the 'Manage Staff' area of the service
 
-# Notify people about the allocation
+### Notify people about the allocation
 
 * Content improvements required to make it clearer that this list of people is prison-wide, not specific to the case
 * Consider whether this email could be saved anywhere as a paper trail
