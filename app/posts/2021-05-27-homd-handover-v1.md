@@ -73,30 +73,56 @@ View the research deck: INSERT
 
 ### Overview
 
-* Change
+* Useful for HOMD users to have an overview, especially the number of cases for handover and the number of cases with COM allocation overdue
+* Review 'By stage' label and key. Some participants were not clear what this chart was showing. Once it was explained to them, they found it useful to understand the balance of immediate intensity / future handover work
+* Consider using a stacked bar chart instead of a pie chart for 'stage' because there is a sense of timeline and cases moving through a process, which a pie chart does not convey
+* For all charts it is important to show the totals within the key for people who are more comfortable with numeric data than visualisations
+* If implementing any charts, it is important to review the latest MoJ design system accessibility review and consider how to make these charts accessible to all users
+* Consider removing the 'By type' breakdown, which was not seen as useful by participants
+* Consider the 'Releases in next 14 days' information. Some participants found this data confusing, because they don't have a mental link between releases and handovers. They see them as two separate processes
+
 
 ### Handover case list
 
-* Change
+* The checklist feature was seen as very useful. It provided the right level of information at a glance, and the use of colour and cross/ check icons helped participants quickly identify cases that looked problematic
+* Review what items should be included in the checklist and how this data could be captured by POM users. At the highest level, HOMDs wanted to understand:
+1. Has a COM been allocated at the right time?
+2. Is the POM in contact with the COM?
+3. Has the POM reviewed the latest OASys assessment?
+4. Has the handover meeting happened? Or for legacy CRC cases, has the handover form been shared by the POM?
+* Consider how this list is ordered. Participants wanted to sort this list either by risk (high tier first), or to have this list in "panic order please" (P3), with missing checklist items or missing COM allocations at the top
+* Consider including the release date in this list
+* Consider a means for the user to see all cases managed by a particular POM. We delivered that via the 'View POM workload' view, but some participants expected to be able to filter this list from here
+* Decide on rules for when the red and green warning stripe would display. Participants found the red visual cue very helpful when scanning information in this list
 
 
 ### Releases list
 
-* Change
+* If release dates are being included in the general handover case list, the need for this screen may go away
+* Consider whether 14 days is the right amount of time. One participant said they would prefer 1 month
+* Consider including the checklist of handover tasks in this view, so that the user can confirm that all of the POM handover tasks are complete and the case is "ready to go" (P4)
+* Participants found it useful to see the release date type. For example, CRD
 
 ### COM allocation overdue list
 
-* Change
+* Consider who should have access to this view. Potentially case administrators
+* Review the copy of 'Legacy CRC case - no supporting COM required'. Some participants were confused by this, but the term 'Legacy CRC' is currently a new concept for all users
 
 
 ### View POM workload: overview
 
-* Change
+* Change the content in the 'Current workload' table to make items more specific and status driven. For example, are these tasks due or overdue? And instead of approaching parole, cases coming up for parole in the next 6 months
+* Explore whether we can get this data for OASys and recategorisations. Participants found it very useful, and suggested it would provide value for the POMs to view their work in this way
+* Explore whether we can allow users to drill into this data. For example, the ability to view a list of the 6 cases with an OASys review due and the type of OASys (start custody OASys)
+* Case mix by tier and POM role was valuable
 
 ### View POM workload: caseload
 
-* Change
+* No changes needed. Useful to be able to see this list. Participants would use this list in supervision sessions
 
 ### View POM workload: handover cases
 
-* Change
+* This page very well received, especially the checklist feature and use of red warning stripes.  
+* As before, review the copy of 'Legacy CRC case - no supporting COM required'. Some participants were confused by this, but the term 'Legacy CRC' is currently a new concept for all users
+* As before, review what items should be included in the checklist and how this data could be captured by POM users.
+* As before, decide on rules for when the red and green warning stripe would display. Participants found the red visual cue very helpful when scanning information in this list
