@@ -39,8 +39,8 @@ This design was tested in week beginning May 3rd 2021.
 ### Overview
 
 * We could remove this screen and rely on the sub nav headings providing this numeric overview. For example, 'Handover cases to prepare (2)'
-* Change the copy on the 'Manage the emails you receive' link so that it reflects that these are email reminders
-* Rehome the email reminders link in order to make this action more findable
+* Change the copy on the 'Manage the emails you receive' link so that it reflects that these are email reminders (Changed – TR)
+* Rehome the email reminders link in order to make this action more findable (Changed but might not work if we remove this page – TR)
 
 ### Case list
 
@@ -54,15 +54,15 @@ This design was tested in week beginning May 3rd 2021.
 
 ### Cases missing COM details
 
-* Provide guidance on what to do in the scenario where MPC does not have LDU details. For example, telling people how to find out the sentencing court details
+* Provide guidance on what to do in the scenario where MPC does not have LDU details. For example, telling people how to find out the sentencing court details (Changed – TR)
 * Consider the rules for how we count 'days since COM allocation requested', especially if the community might have been told about the case more than once  
 
 ### Manage email reminders
 
-* Policy and best practice suggests 8 weeks is enough time to send an email notifying POMs that handover is approaching. Some POMs were surprised by how much lead time we were suggesting. We need to provide explanation in hint text about why this is the right amount of notice.
-* On the missing COM details reminder, remove reference to one week. Consider replacing with just "overdue".
-* COM handover meeting reminder – rephrase as it's the COM who owns the meeting and broaden focus to make it more about establishing informal communication with the COM
+* Policy and best practice suggests 8 weeks is enough time to send an email notifying POMs that handover is approaching. Some POMs were surprised by how much lead time we were suggesting. We need to provide explanation in hint text about why this is the right amount of notice. (Changed – TR)
+* On the missing COM details reminder, remove reference to one week. Consider replacing with just "overdue". (Changed – overdue)
+* COM handover meeting reminder – rephrase as it's the COM who owns the meeting and broaden focus to make it more about establishing informal communication with the COM (Changed – TR)
 
 ### Record handover progress
 
-* Remove the details component in the sidebar
+* Remove the details component in the sidebar (Changed – TR)
