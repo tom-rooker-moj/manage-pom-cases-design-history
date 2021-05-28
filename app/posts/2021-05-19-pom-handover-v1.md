@@ -66,3 +66,4 @@ This design was tested in week beginning May 3rd 2021.
 ### Record handover progress
 
 * Remove the details component in the sidebar (Changed – TR)
+* Change "Resident details" to "Prisoner details" – does this make it more consistent with the rest of DPS/MPC? (Changed – TR)
