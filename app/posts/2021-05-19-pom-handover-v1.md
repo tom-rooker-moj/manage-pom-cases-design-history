@@ -46,8 +46,8 @@ This design was tested in week beginning May 3rd 2021.
 
 * Split the two tables over two pages, using the sub nav for navigation
 * Add a count to the sub nav. Eg 'Handover cases to prepare (2)'
-* Add release date to these tables to help users prioritise action
-* Remove 'COM' column from the 'Prepare for handover' table
+* Add release date to these tables to help users prioritise action (Changed – TR)
+* Remove 'COM' column from the 'Prepare for handover' table (Changed – TR)
 * Consider the rules for highlighting cases. For example, highlighting cases by displaying a green bar when there is less than 2 weeks before a COM is due to be allocated
 * Consider how we show the status of specific handover tasks from this case list page
 
