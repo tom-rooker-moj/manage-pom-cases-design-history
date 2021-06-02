@@ -38,24 +38,24 @@ This design was tested in week beginning May 3rd 2021.
 
 ### Overview
 
-* We could remove this screen and rely on the sub nav headings providing this numeric overview. For example, 'Handover cases to prepare (2)'
+* <strong>We could remove this screen and rely on the sub nav headings providing this numeric overview. For example, 'Handover cases to prepare (2)'</strong>
 * Change the copy on the 'Manage the emails you receive' link so that it reflects that these are email reminders (Changed – TR)
 * Rehome the email reminders link in order to make this action more findable (Changed but might not work if we remove this page – TR)
 
 ### Case list
 
-* Split the two tables over two pages, using the sub nav for navigation
-* Add a count to the sub nav. Eg 'Handover cases to prepare (2)'
+* <strong>Split the two tables over two pages, using the sub nav for navigation</strong>
+* <strong>Add a count to the sub nav. Eg 'Handover cases to prepare (2)'</strong>
 * Add release date to these tables to help users prioritise action (Changed – TR)
 * Remove 'COM' column from the 'Prepare for handover' table (Changed – TR)
-* Consider the rules for highlighting cases. For example, highlighting cases by displaying a green bar when there is less than 2 weeks before a COM is due to be allocated
-* Consider how we show the status of specific handover tasks from this case list page
+* <strong>Consider the rules for highlighting cases. For example, highlighting cases by displaying a green bar when there is less than 2 weeks before a COM is due to be allocated</strong>
+* <strong>Consider how we show the status of specific handover tasks from this case list page</strong>
 
 
 ### Cases missing COM details
 
 * Provide guidance on what to do in the scenario where MPC does not have LDU details. For example, telling people how to find out the sentencing court details (Changed – TR)
-* Consider the rules for how we count 'days since COM allocation requested', especially if the community might have been told about the case more than once  
+* <strong>Consider the rules for how we count 'days since COM allocation requested', especially if the community might have been told about the case more than once</strong>  
 
 ### Manage email reminders
 
