@@ -67,3 +67,13 @@ This design was tested in week beginning May 3rd 2021.
 
 * Remove the details component in the sidebar (Changed – TR)
 * Change "Resident details" to "Prisoner details" – does this make it more consistent with the rest of DPS/MPC? (Changed – TR)
+
+## Additional changes made by Tom
+
+* Reformatted the prepare and share tables to change some of the labels and position of some dates. I did this because:
+    * "COM supports" worked well for NPS determinate cases, but less so for other kinds of cases. 
+    * Wanted to work case type in there as a separate field – didn't feel like it fit into the COM supports table
+    * Date COM supports isn't always the same as handover start date. We're suggesting 8 weeks before COM allocation should be handover start date
+    * Similarly, case list tables here suggest that handover completion date is the date COM takes responsibility. But don't think this works for indeterminate/parole eligible cases, when COM takes responsibility as soon as they are allocated
+* On screenshot here, we specify that only NPS cases could appear on the Cases missing COM details tab. Stephen seemed quite confident (https://mojdt.slack.com/archives/GCLDGDD6J/p1623746859033800) that we could retrieve this information for CRC cases too. So I've removed the mention of NPS. 
+
