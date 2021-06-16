@@ -38,14 +38,14 @@ This design was tested in week beginning May 3rd 2021.
 
 ### Overview
 
-* <strong>We could remove this screen and rely on the sub nav headings providing this numeric overview. For example, 'Handover cases to prepare (2)'</strong>
+* We could remove this screen and rely on the sub nav headings providing this numeric overview. For example, 'Handover cases to prepare (2)'(Changed-SB)
 * Change the copy on the 'Manage the emails you receive' link so that it reflects that these are email reminders (Changed – TR)
 * Rehome the email reminders link in order to make this action more findable (Changed but might not work if we remove this page – TR)
 
 ### Case list
 
-* <strong>Split the two tables over two pages, using the sub nav for navigation</strong>
-* <strong>Add a count to the sub nav. Eg 'Handover cases to prepare (2)'</strong>
+* Split the two tables over two pages, using the sub nav for navigation (Changed-SB)
+* Add a count to the sub nav. Eg 'Handover cases to prepare (2)' (Changed - SB)
 * Add release date to these tables to help users prioritise action (Changed – TR)
 * Remove 'COM' column from the 'Prepare for handover' table (Changed – TR)
 * <strong>Consider the rules for highlighting cases. For example, highlighting cases by displaying a green bar when there is less than 2 weeks before a COM is due to be allocated</strong>
