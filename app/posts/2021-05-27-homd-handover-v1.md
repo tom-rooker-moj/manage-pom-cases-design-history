@@ -65,11 +65,35 @@ So that I can support my team members to know how to do handovers well.
     }]
 }) }}
 
-## User testing
-
-View the research deck: INSERT
-
 ## What will change on each screen in the next iteration
+
+### Overview
+
+* Instead of using separate pages, have 5 tabs on a single page for: Overview, Cases to prepare, Cases being shared, Releases in next 14 days and Cases missing COM details
+* Replace the By stage pie chart with with  bar chart. Bar chart conveys a sense of moving through a process 
+* Rename the By stage labels as POM preparing and POM sharing were not readily understood. <strong>NOTE: Do we want to look at adding COM responsible to this chart? That may help to represent cases that don't get a supporting COM</strong>
+* Replace By type with By release date type. Values for this would be: Conditional release date, Actual release date, Parole eligibility date, Tariff expiry date, Parole review date. <strong>NOTE: Think we need to keep exploring this. Full list of vaules needs to be confirmed. We could get some feedback from Laura once we've implemented it</strong>
+
+### Cases for handover
+
+* Update tables on Prepare and Share tabs with layout from the POM view
+* Reduce the number of tasks in line with the POM view
+* Order tables by release date. This should make it easy for HOMDs to see if cases coming up for release have missing handover tasks
+
+### Releases in next 14 days
+
+* Order so the highest tier cases are at the top of the table
+* Combine release date and release date type columns
+
+### COM allocation overdue
+
+* Bring table in line with the POM view
+* Change Days since COM allocation requested to show the number of days since COM should have been allocated. <strong>NOTE: Column header TBC</strong> 
+* Order by how late the cases are
+
+<hr>
+
+## Notes from a previous version of this post
 
 ### Overview
 
