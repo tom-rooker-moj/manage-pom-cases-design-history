@@ -49,13 +49,13 @@ This design was tested in week beginning May 3rd 2021.
 * Add release date to these tables to help users prioritise action (Changed – TR)
 * Remove 'COM' column from the 'Prepare for handover' table (Changed – TR)
 * <strong>Consider the rules for highlighting cases. For example, highlighting cases by displaying a green bar when there is less than 2 weeks before a COM is due to be allocated</strong>
-* <strong>Consider how we show the status of specific handover tasks from this case list page</strong>
+* Consider how we show the status of specific handover tasks from this case list page (We've done this by putting a task list with ticks and crosses on this page)
 
 
 ### Cases missing COM details
 
 * Provide guidance on what to do in the scenario where MPC does not have LDU details. For example, telling people how to find out the sentencing court details (Changed – TR)
-* <strong>Consider the rules for how we count 'days since COM allocation requested', especially if the community might have been told about the case more than once</strong>  
+* Consider the rules for how we count 'days since COM allocation requested', especially if the community might have been told about the case more than once (We're doing this by counting the number of days since a COM should have been allocated instead)
 
 ### Manage email reminders
 
