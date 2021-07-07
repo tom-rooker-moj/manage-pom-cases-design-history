@@ -73,3 +73,4 @@ If the case is a CRC case, show these tags:
 * Review OASys
 * Share case information with COM
 * Send handover report
+
