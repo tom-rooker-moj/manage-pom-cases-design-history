@@ -51,14 +51,14 @@ Release date type should be proceeded by a colon and then the release date, like
 
 Automatic release date: 04 Jun 2021
 
-### Table highlights
+## Table highlights
 
 We use red and green highlights on the tables to flag up important dates. The red highlight is applied to cases on the Share and Cases missing COM details tables when 
 
 * Red highlight should be applied on the day after COM allocation if a COM has not been allocated
 * Green highlight should appear 7 days before COM becomes responsible for the case. Text below should indicate 
 
-### Handover task list
+## Handover task list
 
 We show different tasks depending on the organisation that is supervising the case, as outlined in the handover policy.
 
