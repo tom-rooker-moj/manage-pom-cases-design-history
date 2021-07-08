@@ -20,11 +20,12 @@ Both the POM view and the HOMD view share the same main tables. These are Prepar
 
 * Cases appear on the Prepare table 8 weeks before the COM allocation date
 * They move from Prepare to Share on the date of COM allocation, even if a COM has not been allocated
-* If a case is missing COM details after the COM allocation date, it should remain on the Share table. However, it should also be displayed on the Cases missing COM details table
+* If a case is missing COM details after the COM allocation date, it should remain on the Share table. However, it should also be displayed on the Cases missing COM details table. Once a case is allocated a COM, it should be removed from this table
+* A case should stay on the Share table until the release date is reached.
 
 ## Content the tables should display
 
-Most of the content of the table is self-explanatory, but a couple of things may need a bit of clarification.
+Most of the content of the tables is self-explanatory, but a couple of things may need a bit of clarification.
 
 ### Responsibility transfer date
 
@@ -35,7 +36,7 @@ This column contains information about the dates that responsibility passes to t
 
 ### Release date
 
-POMs indicated it’s useful to have release date type because it gives them a sense of how certain it is that someone will be released. For example, if someone is eligible for parole, it is less certain they will be released than someone who is not. It also allows them to work out when they should start communicating with the COM.
+POMs indicated it is useful to have release date type because it gives them a sense of how certain it is that someone will be released. For example, if someone is eligible for parole, it is less certain they will be released than someone who is not. It also allows them to work out when they should start communicating with the COM.
 
 We should display one of the following types of release date on the Prepare, Share and Cases missing COM details tables. If a prisoner has more than one release date, display the earliest one. 
 
@@ -47,7 +48,7 @@ We should display one of the following types of release date on the Prepare, Sha
 * Tariff expiry date
 * Parole review date
 
-Release date type should be proceeded by a colon and then the release date, like this:
+Release date type should be followed by a colon and then the release date, like this:
 
 Automatic release date: 04 Jun 2021
 
@@ -68,9 +69,53 @@ If the case is an NPS case, show these tasks:
 * Share case information with COM
 * Attend handover meeting
 
-If the case is a CRC case, show these tags: 
+If the case is a CRC case, show these tasks: 
 
 * Review OASys
 * Share case information with COM
 * Send handover report
+
+## Handover reminder emails
+
+Part of the feature involves sending reminder emails at important points in the handover process. <a href="https://docs.google.com/document/d/1VeXNQDZqQERde3MIfcCdxZTumza5UWPIWLcphSaOVfM/edit?usp=sharing" target="_blank">The content of each email is on this Google doc</a>.
+
+This is when each email should be sent:
+
+### 8 weeks before COM allocation
+
+Send this email:
+
+* For all types of case
+* 8 weeks before date of COM allocation
+* As long as a COM has been allocated after that date
+
+### Start of handover
+
+Send this email:
+
+* For all cases that have a supporting COM
+* On the date of COM allocation
+* As long as COM has been allocated
+
+### COM allocation overdue
+
+Send this email:
+
+* For all types of case
+* On the day after COM allocation
+* If a COM has not been allocated
+
+### To check handover tasks are in hand towards the end of the process
+
+Send this email:
+
+* For all types of case
+* 7 days before COM takes responsibility 
+
+### When a COM has become responsible 
+
+Send this email:
+
+* For all types of case
+* On the date that COM takes responsibility
 
