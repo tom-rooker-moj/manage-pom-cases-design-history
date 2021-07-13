@@ -89,11 +89,11 @@ Send this email:
 * 8 weeks before date of COM allocation
 * As long as a COM has been allocated after that date
 
-### Start of handover
+### When a COM has been allocated
 
 Send this email:
 
-* For all cases that have a supporting COM
+* For all cases
 * On the date of COM allocation
 * As long as COM has been allocated
 
@@ -116,6 +116,7 @@ Send this email:
 
 Send this email:
 
-* For all types of case
+* For cases that have had a supporting COM
 * On the date that COM takes responsibility
+* NOTE: We don't need to send this for cases for which COM takes responsibility on the same day as allocation. These cases will be covered by the second email (When a COM has been allocated).
 
