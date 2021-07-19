@@ -40,17 +40,17 @@ POMs indicated it is useful to have release date type because it gives them a se
 
 We should display one of the following types of release date on the Prepare, Share and Cases missing COM details tables. If a prisoner has more than one release date, display the earliest one. 
 
-* Conditional release date
-* Automatic release date
-* HDC eligibility date
-* HDC actual date
-* Parole eligibility date
-* Tariff expiry date
-* Parole review date
+* CRD (Conditional release date)
+* ARD (Automatic release date)
+* HDCED (HDC eligibility date)
+* HDCEA (HDC actual date)
+* PED (Parole eligibility date)
+* TED (Tariff expiry date)
+* PRD (Parole review date)
 
 Release date type should be followed by a colon and then the release date, like this:
 
-Automatic release date: 04 Jun 2021
+ARD: 04 Jun 2021
 
 ## Table highlights
 
@@ -66,14 +66,17 @@ We show different tasks depending on the organisation that is supervising the ca
 If the case is an NPS case, show these tasks:
 
 * Review OASys
-* Share case information with COM
+* Have contact with COM
 * Attend handover meeting
 
 If the case is a CRC case, show these tasks: 
 
-* Review OASys
-* Share case information with COM
+* Have contact with COM
 * Send handover report
+
+POMs can record progress on specific cases by ticking off tasks. Once a task's status is updated by a POM, this is reflected in the progress column in the HOMD view.
+
+Eventually, there will be no difference between handovers for NPS and CRC cases and the tasks in the first task list will need to be implemeted across the board.
 
 ## Handover reminder emails
 
@@ -116,7 +119,7 @@ Send this email:
 
 Send this email:
 
-* For cases that have had a supporting COM
-* On the date that COM takes responsibility
-* NOTE: We don't need to send this for cases for which COM takes responsibility on the same day as allocation. These cases will be covered by the second email (When a COM has been allocated).
+* For all types of case
+* On the date that COM takes responsibility if a COM has been supporting
+* 7 days after COM takes responsibility for a case with no supporting period (?)
 
