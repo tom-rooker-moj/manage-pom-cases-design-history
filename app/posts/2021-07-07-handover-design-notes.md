@@ -14,14 +14,20 @@ Additionally, POMs can mark specific handover tasks as completed on a task list,
 
 A set of email reminders also flags important events in the handover process and the proposal is that POMs will be able to manage which of these emails they receive.
 
+This post outlines UI behaviour that may not be properly reflected or immediately obvious in the prototype.
+
 ## How cases move through the tables
 
-Both the POM view and the HOMD view share the same main tables. These are Prepare for handover, Share case information and Cases missing COM details.
+Both the POM view and the HOMD view share the same main tables. These are Upcoming handovers, Handovers in progress, Overdue tasks and COM allocation overdue.
 
-* Cases appear on the Prepare table 8 weeks before the COM allocation date
-* They move from Prepare to Share on the date of COM allocation, even if a COM has not been allocated
-* If a case is missing COM details after the COM allocation date, it should remain on the Share table. However, it should also be displayed on the Cases missing COM details table. Once a case is allocated a COM, it should be removed from this table
-* A case should stay on the Share table until the release date is reached.
+* Cases appear on the Upcoming table 8 weeks before the COM allocation date
+* They move from Prepare to In progress on the date of COM allocation, even if a COM has not been allocated. If a COM is allocated early, it should move to the In progress tab
+* If a case is missing COM details after the COM allocation date, it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table
+* A case should stay on the In progress table until the release date is reached.
+
+### Overdue tasks table
+
+Cases appear here if they have a red highlight applied. They also remain on the In progress table. See below for the rules that define when a red highlight should be applied to a case. 
 
 ## Content the tables should display
 
@@ -52,12 +58,37 @@ Release date type should be followed by a colon and then the release date, like 
 
 ARD: 04 Jun 2021
 
+## Ordering information in the tables
+
+POMs and HOMDs can choose to order the data in the table using the table headers. For example, they can order the information by POM name.
+
+By default, however, the data should be ordered as follows:
+
+* For HOMDs – Show cases with earliest COM responsible date towards the top of the table. If possible, also order by tier, so the higher tier cases are at the top of the table
+* For POMs – Show cases with the earliest COM responsible date towards the top of the table
+
+UR showed that HOMDs prefer to keep track of the higher tier cases, so bringing these up in the table will be useful. This is not as important for POMs.
+
 ## Table highlights
 
-We use red and green highlights on the tables to flag up important dates. The red highlight is applied to cases on the Share and Cases missing COM details tables when 
+We use purple and red highlights on the tables to flag up important dates. The rules governing when highlights should be applied are the same across POM and HOMD views and are as follows.
 
-* Red highlight should be applied on the day after COM allocation if a COM has not been allocated
-* Green highlight should appear 7 days before COM becomes responsible for the case. Text below should indicate 
+Orginally the purple highlight was green. We changed this to avoid suggesting that a green handover had been completed. In fact, there may still be work to do on the COM side or additional POM tasks that aren't included in our task list.
+
+### If tasks are outstanding on a case that a COM has been supporting
+
+* 21 days before COM becomes responsible: Case turns purple and the text "Handover due soon" is displayed
+* On the day COM becomes responsible: Case turns red and the text "Handover tasks overdue" is displayed
+
+### If tasks are outstanding on cases where COM becomes responsible on the day of allocation
+
+* 14 days before COM allocation: Case turns purple and the text "Handover due soon" is displayed
+* One week after COM allocation: Case goes red and the text "Handover tasks overdue" is displayed
+
+### If COM allocation is overdue on any kind of case
+
+* Case turns red if no COM has been assigned one day after COM allocation date
+* It stays red until a COM is allocated
 
 ## Handover task list
 
@@ -76,7 +107,11 @@ If the case is a CRC case, show these tasks:
 
 POMs can record progress on specific cases by ticking off tasks. Once a task's status is updated by a POM, this is reflected in the progress column in the HOMD view.
 
-Eventually, there will be no difference between handovers for NPS and CRC cases and the tasks in the first task list will need to be implemeted across the board.
+Eventually, there will be no difference between handovers for NPS and CRC cases and the first task list will need to be implemeted across the board.
+
+## Link to EQuiP handover guidance
+
+The POM view contains a sidebar with links to some handover guidance on EQuiP. The URL for this is: https://equip-portal.rocstac.com/CtrlWebIsapi.dll/?__id=docDetails.showDoc&doc=9AFC7FAAF4CA4B88BCCAEB9320C31F94&dpt=1
 
 ## Handover reminder emails
 
@@ -123,3 +158,6 @@ Send this email:
 * On the date that COM takes responsibility if a COM has been supporting
 * 7 days after COM takes responsibility for a case with no supporting period (?)
 
+## Managing email reminders
+
+While the email reminders were received well in UR, there is a need for users to be able to choose which emails they receive. Preferences chosen on the Manage email reminders page should apply to all cases.
