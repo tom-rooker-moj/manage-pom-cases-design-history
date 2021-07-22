@@ -21,7 +21,7 @@ This post outlines UI behaviour that may not be properly reflected or immediatel
 Both the POM view and the HOMD view share the same main tables. These are Upcoming handovers, Handovers in progress, Overdue tasks and COM allocation overdue.
 
 * Cases appear on the Upcoming table 8 weeks before the COM allocation date
-* They move from Prepare to In progress on the date of COM allocation, even if a COM has not been allocated. If a COM is allocated early, it should move to the In progress tab
+* They move from Upcoming to In progress on the date of COM allocation, even if a COM has not been allocated. If a COM is allocated early, the case should move to the In progress tab
 * If a case is missing COM details after the COM allocation date, it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table
 * A case should stay on the In progress table until the release date is reached.
 
@@ -44,7 +44,7 @@ This column contains information about the dates that responsibility passes to t
 
 POMs indicated it is useful to have release date type because it gives them a sense of how certain it is that someone will be released. For example, if someone is eligible for parole, it is less certain they will be released than someone who is not. It also allows them to work out when they should start communicating with the COM.
 
-We should display one of the following types of release date on the Prepare, Share and Cases missing COM details tables. If a prisoner has more than one release date, display the earliest one. 
+We should display one of the following types of release date on the tables. If a prisoner has more than one release date, display the earliest one. 
 
 * CRD (Conditional release date)
 * ARD (Automatic release date)
@@ -71,9 +71,9 @@ UR showed that HOMDs prefer to keep track of the higher tier cases, so bringing 
 
 ## Table highlights
 
-We use purple and red highlights on the tables to flag up important dates. The rules governing when highlights should be applied are the same across POM and HOMD views and are as follows.
+We use purple and red highlights on the tables to flag up important dates. The rules governing when highlights should be applied are the same across POM and HOMD views and are outlined below.
 
-Orginally the purple highlight was green. We changed this to avoid suggesting that a green handover had been completed. In fact, there may still be work to do on the COM side or additional POM tasks that aren't included in our task list.
+Orginally the purple highlight was green. We changed this to avoid suggesting that a handover has been completed once it turns green. In fact, there may still be work to do on the COM side or additional POM tasks that aren't included in our task list.
 
 ### If tasks are outstanding on a case that a COM has been supporting
 
@@ -125,7 +125,6 @@ Send this email:
 
 * For all types of case
 * 8 weeks before date of COM allocation
-* As long as a COM has been allocated after that date
 
 ### When a COM has been allocated
 
@@ -148,7 +147,7 @@ Send this email:
 Send this email:
 
 * For all types of case that have had a supporting COM
-* 7 days before COM takes responsibility 
+* 14 days before COM takes responsibility 
 
 ### When a COM has become responsible 
 
