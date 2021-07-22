@@ -147,16 +147,15 @@ Send this email:
 
 Send this email:
 
-* For all types of case
+* For all types of case that have had a supporting COM
 * 7 days before COM takes responsibility 
 
 ### When a COM has become responsible 
 
 Send this email:
 
-* For all types of case
-* On the date that COM takes responsibility if a COM has been supporting
-* 7 days after COM takes responsibility for a case with no supporting period (?)
+* For all types of case that have had a supporting COM
+* On the date that COM takes responsibility
 
 ## Managing email reminders
 
