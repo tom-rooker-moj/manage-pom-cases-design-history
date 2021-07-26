@@ -1,5 +1,5 @@
 ---
-title: Handover design notes (DRAFT)
+title: Handover design notes
 description: Description of UI behaviour of a new MPC handover feature
 date: 2021-07-07
 ---
