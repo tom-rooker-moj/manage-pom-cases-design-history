@@ -33,7 +33,7 @@ Cases appear here if they have a red highlight applied. They also remain on the 
 
 Most of the content of the tables is self-explanatory, but a couple of things may need a bit of clarification.
 
-### Responsibility transfer date
+### COM responsible
 
 This column contains information about the dates that responsibility passes to the community.
 
