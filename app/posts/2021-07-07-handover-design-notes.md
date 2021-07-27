@@ -113,6 +113,10 @@ Eventually, there will be no difference between handovers for NPS and CRC cases 
 
 The POM view contains a sidebar with links to some handover guidance on EQuiP. The URL for this is: https://equip-portal.rocstac.com/CtrlWebIsapi.dll/?__id=docDetails.showDoc&doc=9AFC7FAAF4CA4B88BCCAEB9320C31F94&dpt=1
 
+## Managing email reminders
+
+While the email reminders were received well in UR, there is a need for users to be able to choose which emails they receive. Preferences chosen on the Manage email reminders page should apply to all cases.
+
 ## Handover reminder emails
 
 Part of the feature involves sending reminder emails at important points in the handover process. <a href="https://docs.google.com/document/d/1VeXNQDZqQERde3MIfcCdxZTumza5UWPIWLcphSaOVfM/edit?usp=sharing" target="_blank">The content of each email is on this Google doc</a>.
@@ -155,7 +159,3 @@ Send this email:
 
 * For all types of case that have had a supporting COM
 * On the date that COM takes responsibility
-
-## Managing email reminders
-
-While the email reminders were received well in UR, there is a need for users to be able to choose which emails they receive. Preferences chosen on the Manage email reminders page should apply to all cases.
