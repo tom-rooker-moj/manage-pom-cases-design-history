@@ -25,6 +25,10 @@ Both the POM view and the HOMD view share the same main tables. These are Upcomi
 * If a case is missing COM details after the COM allocation date, it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table
 * A case should stay on the In progress table until the release date is reached.
 
+### Pagination 
+
+Each table should display a maximum of 50 entries. If more than 50 entries need to appear, use pagination.
+
 ### Overdue tasks table
 
 Cases appear here if they have a red highlight applied. They also remain on the In progress table. See below for the rules that define when a red highlight should be applied to a case. 
@@ -57,6 +61,14 @@ We should display one of the following types of release date on the tables. If a
 Release date type should be followed by a colon and then the release date, like this:
 
 ARD: 04 Jun 2021
+
+### Local divisional unit (LDU) details
+
+This one is in the COM allocation overdue tab.
+
+1. If we have LDU name and email address, display both
+2. If we don't have email address but we have LDU name, display this: "Check how to contact Swansea, Neath Port-Talbot LDU. We do not have an email address recorded for it."
+3. If we don't have email address or LDU name, display this: "We don’t have this information. Check DPS to find where this person was sentenced and then try contacting the LDU for that area"
 
 ## Ordering information in the tables
 
@@ -143,7 +155,7 @@ Send this email:
 Send this email:
 
 * For all types of case
-* On the day after COM allocation
+* 14 days after COM allocation
 * If a COM has not been allocated
 
 ### To check handover tasks are in hand towards the end of the process
@@ -152,6 +164,7 @@ Send this email:
 
 * For all types of case that have had a supporting COM
 * 14 days before COM takes responsibility 
+* If a COM has been allocated
 
 ### When a COM has become responsible 
 
@@ -159,3 +172,4 @@ Send this email:
 
 * For all types of case that have had a supporting COM
 * On the date that COM takes responsibility
+* If a COM has been allocated
