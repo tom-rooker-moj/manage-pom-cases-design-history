@@ -173,3 +173,11 @@ Send this email:
 * For all types of case that have had a supporting COM
 * On the date that COM takes responsibility
 * If a COM has been allocated
+
+## Revised dashboard tiles
+
+Following the implementation of this new feature, the handover tiles on the dashboard will need updating, as below.
+
+This is because the current tiles state that we show cases that are within 30 days of handover to the community. In the new feature, we show cases that are within 8 weeks of handover, in line with user research findings.
+
+<img src="../images/dashboard-revised-for-new-handover-stuff.png">
