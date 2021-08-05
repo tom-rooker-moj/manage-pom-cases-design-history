@@ -70,6 +70,16 @@ This one is in the COM allocation overdue tab.
 2. If we don't have email address but we have LDU name, display this: "Check how to contact Swansea, Neath Port-Talbot LDU. We do not have an email address recorded for it."
 3. If we don't have email address or LDU name, display this: "We don’t have this information. Check DPS to find where this person was sentenced and then try contacting the LDU for that area"
 
+### Empty states
+
+Show one of these messages in the relevant table for both POMs and HOMDs if there is no data to display:
+
+* No upcoming handovers at the moment
+* No handovers in progress right now
+* No handover cases with overdue tasks 
+* No handover cases missing COM details
+
+
 ## Ordering information in the tables
 
 POMs and HOMDs can choose to order the data in the table using the table headers. For example, they can order the information by POM name.
