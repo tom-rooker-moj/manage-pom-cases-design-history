@@ -79,6 +79,7 @@ Show one of these messages in the relevant table for both POMs and HOMDs if ther
 * No handover cases with overdue tasks 
 * No handover cases missing COM details
 
+<a href="https://hmpps-moic-staging.herokuapp.com/handover/final/pom/empty-state" target="_blank">See here in the prototype for an example.</a>
 
 ## Ordering information in the tables
 
