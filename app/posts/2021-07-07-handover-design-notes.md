@@ -22,7 +22,7 @@ Both the POM view and the HOMD view share the same main tables. These are Upcomi
 
 * Cases appear on the Upcoming table 8 weeks before the COM allocation date
 * They move from Upcoming to In progress on the date of COM allocation, even if a COM has not been allocated. If a COM is allocated early, the case should move to the In progress tab
-* If a case is missing COM details after the COM allocation date, it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table
+* If a case is missing COM details 48 hours after the COM allocation date (or COM responisble date in indeterminate cases), it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table. The 48 hours condition reflects a stiuplation in a service level agreement that states LDUs have this amount of time to allocate a COM.
 * A case should stay on the In progress table until the release date is reached.
 
 ### Pagination 
@@ -110,7 +110,7 @@ Orginally the purple highlight was green. We changed this to avoid suggesting th
 
 ### If COM allocation is overdue on any kind of case
 
-* Case turns red if no COM has been assigned one day after COM allocation date
+* Case turns red if no COM has been assigned 48 hours after COM allocation date
 * It stays red until a COM is allocated
 
 ## Handover task list
