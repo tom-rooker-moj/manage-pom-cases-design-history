@@ -29,6 +29,10 @@ Both the POM view and the HOMD view share the same main tables. These are Upcomi
 
 Each table should display a maximum of 50 entries. If more than 50 entries need to appear, use pagination.
 
+### Icons 
+
+Google Drive: <a href="https://drive.google.com/drive/folders/1xaazuTPtd08X3ioAC6cPn5Hjif12gW0n?usp=sharing" target="_blank">Tick and cross icons </a>
+
 ### Overdue tasks table
 
 Cases appear here if they have a red highlight applied. They also remain on the In progress table. See below for the rules that define when a red highlight should be applied to a case. 
