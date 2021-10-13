@@ -1,6 +1,6 @@
 ---
 title: Emails in MPC
-description: This records the trigger in the service that causes each email to be sent, as well as their main content and who receives them.
+description: This records the triggers in the service that cause each email to be sent, as well as their main content and who receives them.
 date: 2021-10-13
 ---
 
@@ -102,7 +102,7 @@ As above, but this email is sent if a POM has been allocated to the case. It inc
 
 ### Pipeline to community
 
-This email goes out automatically to LDUs on the first of every month. It contains a list in CSV format of cases coming up for handover in the next 45 days, for example because they are approaching release or entering the parole window.  
+This email goes out automatically to LDUs on the first of every month. It contains a list in CSV format of cases coming up for handover in the next 45 days, for example because they are approaching release or a parole review.  
 
 We only send this if there are cases that the LDU will need to allocate to COMs. If there are no cases that require COM allocation, we send the Pipeline to community (no offenders) email.
 
