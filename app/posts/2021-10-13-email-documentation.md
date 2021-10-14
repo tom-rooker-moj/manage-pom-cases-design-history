@@ -161,5 +161,5 @@ Separately, we sent LDU: Supporting COM needed after move to open prison when a 
 
 We archived this email after merging these 2 messages.
 
-Now, we only send LDU: Supporting COM needed after move to open prison for both male and female prisoners in this scenario.
+Now, we only send LDU: Supporting COM needed after move to open prison for both male and female prisoners on an indeterminate sentence in this scenario.
 
