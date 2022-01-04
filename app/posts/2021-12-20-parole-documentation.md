@@ -95,7 +95,7 @@ This banner also appears on the caseload page:
 
 <img src="../images/updates-banner.png" />
 
-Remove this if no further updates are required once the new target hearing date is entered. If there are other cases update, decrease the count of cases to update by one.
+This should be removed on the updated caseload page, which has a clearer way of showing if case updates are needed.
 
 If the person is released, they should be removed from the service as normal.
 
