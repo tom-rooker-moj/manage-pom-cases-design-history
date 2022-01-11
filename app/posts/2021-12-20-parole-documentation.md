@@ -18,7 +18,7 @@ Currently, MPC asks the user to manually enter something we call a “parole rev
 
 <img src="../images/parole-review-date.png" />
 
-However, it has transpired that users do not actually use or understand the term “parole review date”. It doesn’t seem to be used in any part of the parole process or in PPUD, the database that stores information about parole cases.
+However, it has transpired that users do not actually use or understand the term “parole review date”. It doesn’t seem to be used in any part of the parole process or in PPUD, the database that stores information about parole cases that is managed by a company called Lumen.
 
 OMIC policy subsequently decided the relevant date to use is the next target oral hearing date. This is communicated to people involved in the parole application in an outcome of Parole Board decision letter and in the target hearing date field of PPUD.
 
@@ -77,7 +77,7 @@ For HOMDs we think this will help with workload management – for example, they
 
 ### Rules for displaying information 
 
-We would like to ask the user to enter the new date 6 weeks after the person’s current parole review date or target hearing date passes. This brings the service more closely into line with the parole process, in which the new date is not made available until 21 days after the hearing.
+We would like to ask the user to enter the new date 6 weeks after the person’s current parole review date or target hearing date passes. This brings the service more closely into line with the parole process, in which the new date is not made available until 21 days after the hearing outcome has been shared.
 
 At this point, the case should move on to the Case updates needed page. The person’s profile page should also be updated with a banner requesting the new date and some changes to the fields in the Sentence section. 
 
@@ -101,4 +101,60 @@ If the person is released, they should be removed from the service as normal.
 
 ## Release 2 – taking target hearing date from PPUD
 
-To be continued...
+### What is in the design
+
+<a href="https://hmpps-moic-staging.herokuapp.com/" target="_blank">The design for the second release is recorded here</a> under the header Parole (username MOIC / password elephants).
+
+#### Pages and components to remove
+
+This design replaces the one for the first release, meaning a number of things from the manual entry journey need removing. These are:
+
+* Delete <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/enter-next-target-hearing-date" target="_blank">Enter this person’s next target hearing date page</a>
+* Remove the following question and guidance pages: 
+    - <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/outcome-of-parole" target="_blank">What was the outcome of this person’s parole application?</a>
+    - <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/target-hearing-date-announced" target="_blank">Has this person’s next target hearing date been announced?</a>
+    - <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/check-if-target-hearing-date-needed" target="_blank">Check if you need to enter a new target hearing date</a>
+    - <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/enter-next-target-hearing-date-no-help" target="_blank">Enter the next target hearing date (no help link)</a>
+* Stop showing parole cases on the <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/case-updates-needed" target="_blank">Case updates needed page</a>
+* Remove <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/prisoner-profile" target="_blank">target hearing date update banner from profile page</a>
+* Remove <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/prisoner-profile-success" target="_blank">success message from the profile page</a>
+* Remove Next target hearing date field from the <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/manual-entry-v3/prisoner-profile" target="_blank">profile page</a>
+
+#### New parole tables
+
+One of the main features of the design is a table that lists parole cases. This is shown <a href="https://hmpps-moic-staging.herokuapp.com/parole/pom/parole" target="_blank">here for POMs</a> and <a href="https://hmpps-moic-staging.herokuapp.com/parole/homd/parole" target="_blank">here for HOMDs</a>.
+
+In the HOMD view, this should show all the parole cases in the prison. For POMs, it should show all parole cases on their caseload.
+
+These are the rules for when cases should appear and disappear from the tables:
+
+* A case should appear on the table 10 month before parole eligibility date, tariff expiry date or target hearing date
+* Remove a case if someone is unsuccessful for parole and their next target hearing date is more than 10 months away
+* Remove a case if someone is released 
+
+#### New parole section on the profile page
+
+We want to show the new data from Lumen in a new parole section on each of the profile pages (View prisoner information in both the POM and HOMD views, Allocate a POM and Reallocate a POM).
+
+This section should only be displayed for parole cases – ie ones that have either a tariff expiry date, parole eligibility date or target hearing date.
+
+* Parole eligibility date, tariff expiry date and target hearing date should be moved into this new section
+* Once someone’s target hearing date passes, show the hearing outcome field. Display the text “No hearing outcome recorded yet” until PPUD sends the outcome
+* We think Lumen will send us one of the following hearing outcomes:
+    - Compassionate release
+    - No release
+    - Open – exceptional circumstances
+    - Open conditions – accepted
+    - Open conditions – rejected
+    - Oral hearing – release
+    - Paper decision – release
+    - Parole Board no recommendation
+    - Parole Board release immediately
+    - Recommend release
+    - Release
+    - Release at CRD (EDS/SOPC)
+    - Stay in closed
+    - Stay in open
+
+This data may need manipulating to ensure it is formatted consistently with the rest of the service content.
+* If someone is unsuccessful at their parole hearing, record the target hearing date month and year and the hearing outcome in the previous parole applications section. Record up to 3 hearing outcomes in this section.
