@@ -128,13 +128,13 @@ In the HOMD view, this should show all the parole cases in the prison. For POMs,
 
 These are the rules for when cases should appear and disappear from the tables:
 
-* A case should appear on the table 10 month before parole eligibility date, tariff expiry date or target hearing date
+* A case should appear on the table 10 months before parole eligibility date, tariff expiry date or target hearing date
 * Remove a case if someone is unsuccessful for parole and their next target hearing date is more than 10 months away
 * Remove a case if someone is released 
 
 #### New parole section on the profile page
 
-We want to show the new data from Lumen in a new parole section on each of the profile pages (View prisoner information in both the POM and HOMD views, Allocate a POM and Reallocate a POM).
+We want to show the PPUD data in a new parole section on each of the profile pages (View prisoner information in both the POM and HOMD views, Allocate a POM and Reallocate a POM).
 
 This section should only be displayed for parole cases – ie ones that have either a tariff expiry date, parole eligibility date or target hearing date.
 
