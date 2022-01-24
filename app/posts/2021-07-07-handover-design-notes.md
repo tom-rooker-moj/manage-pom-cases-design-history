@@ -60,7 +60,7 @@ We should display one of the following types of release date on the tables. If a
 * HDCEA (HDC actual date)
 * PED (Parole eligibility date)
 * TED (Tariff expiry date)
-* PRD (Parole review date)
+* Target parole hearing date
 
 Release date type should be followed by a colon and then the release date, like this:
 
