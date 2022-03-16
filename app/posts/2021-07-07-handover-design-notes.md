@@ -57,7 +57,7 @@ We should display one of the following types of release date on the tables. If a
 * CRD (Conditional release date)
 * ARD (Automatic release date)
 * HDCED (HDC eligibility date)
-* HDCEA (HDC actual date)
+* HDCAD (HDC actual date)
 * PED (Parole eligibility date)
 * TED (Tariff expiry date)
 * Target parole hearing date
