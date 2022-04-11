@@ -66,7 +66,7 @@ Release date type should be followed by a colon and then the release date, like 
 
 ARD: 04 Jun 2021
 
-### Local divisional unit (LDU) details
+### LDU details
 
 This one is in the COM allocation overdue tab.
 
