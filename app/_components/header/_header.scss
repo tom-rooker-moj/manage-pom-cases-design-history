@@ -13,4 +13,20 @@
       padding-right: 0;
     }
   }
+
+  // Customisations to make larger HMPPS logo and smaller HMPPS text align
+  .app-header__logotype-crown {
+    margin-right: 3px;
+  }
+
+  .app-header__logotype-text {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  .app-header__logotype-text,
+  .app-header__product-name {
+    position: relative;
+    top: 3px;
+  }
 }

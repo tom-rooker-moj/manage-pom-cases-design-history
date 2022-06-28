@@ -2,7 +2,7 @@
  * STEP 1
  * Set `domain` to the website you want to screenshot, eg localhost:3000
  */
-// const domain = 'https://hmpps-moic-staging.herokuapp.com'
+const domain = 'http://localhost:3000'
 
 /*
  * STEP 2
@@ -14,7 +14,7 @@
  * ]
  */
 const paths = [
-  // { title: 'Example', path: '/example-dir/example-page' },
+  { title: 'Index page', path: '/' }
 ]
 
 /*
