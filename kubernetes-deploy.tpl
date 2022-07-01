@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: manage-a-workforce-design-history
+  name: manage-pom-cases-design-history
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: manage-a-workforce-design-history
+      app: manage-pom-cases-design-history
   template:
     metadata:
       labels:
-        app: manage-a-workforce-design-history
+        app: manage-pom-cases-design-history
     spec:
       containers:
       - name: nginx
@@ -30,7 +30,7 @@ spec:
     name: http
     targetPort: 3000
   selector:
-    app: manage-a-workforce-design-history
+    app: manage-pom-cases-design-history
 ---
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
