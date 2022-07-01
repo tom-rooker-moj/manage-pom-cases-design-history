@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "Manage a workforce design history"
+title: "Manage POM cases (MPC) design history"
 description: "A record of how this service has developed over time."
 pagination:
   data: collections.all
@@ -15,12 +15,12 @@ eleventyComputed:
 related:
   items:
     - text: Prototype
-      href: https://workforce-management.apps.live-1.cloud-platform.service.justice.gov.uk/
+      href: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/
       description: |
-        Username: `allocations`
-        Password: `penguin`
+        Username: `MOIC`
+        Password: `elephants`
     - text: Prototype repository
-      href: https://github.com/ministryofjustice/workforce-management
+      href: https://github.com/ministryofjustice/hmpps-moic-prototype
     - text: Design history repository
-      href: https://github.com/ministryofjustice/manage-a-workforce-design-history
+      href: https://github.com/ministryofjustice/manage-pom-cases-design-history
 ---

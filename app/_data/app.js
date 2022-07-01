@@ -1,3 +1,3 @@
 module.exports = {
-  productName: "Manage a workforce design history",
+  productName: "Manage POM cases design history",
 };
