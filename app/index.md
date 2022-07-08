@@ -23,6 +23,6 @@ related:
       href: https://github.com/ministryofjustice/hmpps-moic-prototype
     - text: Design history repository
       href: https://github.com/ministryofjustice/manage-pom-cases-design-history
-      - text: MPC Product glossary
+    - text: MPC Product glossary
       href: https://docs.google.com/spreadsheets/d/1w0zhjx1_oIScAULFLAE4sEBVlXTRPl2wjMw44VrUcTc/edit?usp=sharing
 ---
