@@ -20,8 +20,8 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 ### Make allocations
 
-**Prototype link:** https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations
-**Replaces this page in the live service:** https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated
+**Prototype link:** <a>https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations</a>
+**Replaces this page in the live service:** <a>https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated</a>
 
 #### Main features
 
