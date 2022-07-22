@@ -207,4 +207,4 @@ The “Primary POM” text should be displayed under each heading in the journey
 
 #### Main features
 
-Primary POM should be highlighted here as shown in the prototype. If the primary POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section.
+* Primary POM should be highlighted here as shown in the prototype. If the primary POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section.
