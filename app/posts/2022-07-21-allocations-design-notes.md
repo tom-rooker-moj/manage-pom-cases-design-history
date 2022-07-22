@@ -69,3 +69,8 @@ Most of the pages in the prototype are direct replacements for pages currently i
 * Sentence underneath “Choose a POM” header should change depending on recommended POM type
 * Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
 
+| Tables                    | Are                     | Cool                    |
+| :------------------------ |:------------------------|:------------------------|
+| col 3 is                  | right-aligned           | $1600                   |
+| col 2 is                  | centered                |   $12                   |
+| zebra stripes             | are neat                |    $1                   |
