@@ -20,8 +20,8 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 ### Make allocations
 
-**Prototype link:** <a>https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations</a>
-**Replaces this page in the live service:** <a>https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated</a>
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations</a>
+**Replaces this page in the live service:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated</a>
 
 #### Main features
 
@@ -34,8 +34,8 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 ### Review case details
 
-**Prototype link:** https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith
-**Replaces this page in the live service:** https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith</a>
+**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff</a>
 
 #### Main features
 
@@ -55,21 +55,21 @@ Most of the pages in the prototype are direct replacements for pages currently i
 * Only show the Handover start date field if handover start date is different to Handover completion date
 * Hide the allocation history link in the More information section if prisoner has no allocation history
 * Show the name and email of the most recently allocated previous POM – only if if someone has worked on the case before and hide these fields if not
-* Implement empty state messages according to this doc https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing
+* Implement empty state messages according to this doc <a href="https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing">https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing</a>
 * The “Change” link in the tier row may shortly be removed for cases that are linked with NDelius. It will form a separate piece of work once this has been confirmed.
 * We are suggesting to include COM email on this page. We do not currently display this in the service. This should be available from the Community API in the allOffenderManagers endpoint.
 
 ### Allocate a POM 
 
-**Prototype link:** https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith
-**Replaces the bottom part of this page in the service:** https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith</a>
+**Replaces the bottom part of this page in the service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff</a>
 
-#### Main features:
+#### Main features
 
 * Sentence underneath “Choose a POM” header should change depending on recommended POM type
 * Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
 
-<table class="demo">
+<table>
 	<thead>
 	<tr>
 		<th>Condition</th>
@@ -112,7 +112,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
 ### Compare POMs
 
 This is a new page that doesn’t have a direct replacement in the live service.
-**It is this page in the prototype**:  https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith
+**It is this page in the prototype**:  <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith</a>
 
 #### Main features
 
@@ -124,8 +124,8 @@ This is a new page that doesn’t have a direct replacement in the live service.
 
 ### Check allocation details
 
-**Prototype link**: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step3-confirm-allocation-jack-smith
-**Replaces this link in the service**: https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate
+**Prototype link**: <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step3-confirm-allocation-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step3-confirm-allocation-jack-smith</a>
+**Replaces this link in the service**: <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate</a>
 
 #### Main features
 
@@ -135,8 +135,8 @@ This is a new page that doesn’t have a direct replacement in the live service.
 
 ### Allocation success message
 
-**The message at the top of this page in the prototype**: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step4-success-msg-jack-smith
-**Replaces the success message at the top of this page**:https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated
+**The message at the top of this page in the prototype**: <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step4-success-msg-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step4-success-msg-jack-smith</a>
+**Replaces the success message at the top of this page**:<a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated</a>
 
 #### Main features
 
@@ -151,7 +151,7 @@ Only pages with changes that are different to those in the other journeys here a
 
 ### See allocations
 
-**Prototype link:** XXXXX
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/see-allocations">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/see-allocations</a>
 **Replaces this page in the live service:** XXXXX
 
 #### Main features
@@ -162,25 +162,27 @@ Only pages with changes that are different to those in the other journeys here a
 
 #### Review case details
 
-**Prototype link:** XXXXX
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley</a>
 **Replaces this page in the live service:** XXXXX
 
 #### Main features
 
-Add details of currently allocated 
-Text of the calls to action are also different on this page
+* Add details of currently allocated 
+* Text of the calls to action are also different on this page
 
-**Prototype link:** XXXXX
+### Allocate a POM
+
+**Prototype link:** <a href="">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2-select-pom-simon-riley</a>
 **Replaces this page in the live service:** XXXXX
 
 #### Main features
 
-Currently allocated POM is also flagged in the table. If the currently allocated POM has also previously worked with the prisoner, we should only display the “Currently allocated” label on the table. 
-Previously allocated POMs should also be shown at the top of the table. If the currently allocated POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section. 
+* Currently allocated POM is also flagged in the table. If the currently allocated POM has also previously worked with the prisoner, we should only display the “Currently allocated” label on the table. 
+* Previously allocated POMs should also be shown at the top of the table. If the currently allocated POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section. 
 
 ### Compare POMs
 
-**Prototype link:** XXXXX
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2b-select-pom-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2b-select-pom-simon-riley</a>
 **Replaces this page in the live service:** XXXXX
 
 #### Main features
@@ -190,7 +192,7 @@ Previously allocated POMs should also be shown at the top of the table. If the c
 ### Confirm allocation 
 
 This would be a new page.
-**Prototype link:** XXXXX
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step3b-validate-allocation-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step3b-validate-allocation-simon-riley</a>
 
 #### Main features
 
@@ -202,7 +204,7 @@ The “Primary POM” text should be displayed under each heading in the journey
 
 ### Allocate a co-working POM
 
-**Prototype link:** XXXXX
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/select-pom">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/select-pom</a>
 **Replaces this page in the live service:** XXXXX
 
 #### Main features
