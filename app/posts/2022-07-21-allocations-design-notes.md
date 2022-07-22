@@ -20,8 +20,8 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 ### Make allocations
 
-Prototype link: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations
-Replaces this page in the live service: https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated
+**Prototype link:** https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations
+**Replaces this page in the live service:** https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated
 
 #### Main features
 
@@ -34,8 +34,8 @@ Replaces this page in the live service: https://dev.moic.service.justice.gov.uk/
 
 ### Review case details
 
-Prototype link: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith
-Replaces this page in the live service: https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff
+**Prototype link:** https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith
+**Replaces this page in the live service:** https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff
 
 #### Main features
 
@@ -59,13 +59,13 @@ Replaces this page in the live service: https://dev.moic.service.justice.gov.uk/
 * The “Change” link in the tier row may shortly be removed for cases that are linked with NDelius. It will form a separate piece of work once this has been confirmed.
 * We are suggesting to include COM email on this page. We do not currently display this in the service. This should be available from the Community API in the allOffenderManagers endpoint.
 
-Allocate a POM 
+### Allocate a POM 
 
-Prototype link: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith
-Replaces the bottom part of this page in the service: https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff
+**Prototype link:** https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith
+**Replaces the bottom part of this page in the service:** https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff
 
-Main features:
+#### Main features:
 
-Sentence underneath “Choose a POM” header should change depending on recommended POM type
-Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
+* Sentence underneath “Choose a POM” header should change depending on recommended POM type
+* Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
 
