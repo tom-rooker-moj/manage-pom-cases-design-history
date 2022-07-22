@@ -42,22 +42,22 @@ Replaces this page in the live service: https://dev.moic.service.justice.gov.uk/
 * Layout of current page should be reformatted in line with the prototype – main changes include introducing the “at a glance” box and new accordions
 * Add risk information at the side of the page. This is dependent on this ticket being completed, which should help developers get a sense of the technical architecture involved in retrieving this data. 
 * In Sentence and offence accordion, only display the release dates we have for the prisoner in this format:
-⋅⋅* Conditional release date
-Actual release date
-Parole eligibility date
-Tariff expiry date
-Home detention curfew actual date
-Home detention curfew eligibility date
-Sentence expiry
-Licence expiry
-Post-recall release
-Parole review date (soon to be renamed to Target parole hearing date)
-Only show the Handover start date field if handover start date is different to Handover completion date
-Hide the allocation history link in the More information section if prisoner has no allocation history
-Show the name and email of the most recently allocated previous POM – only if if someone has worked on the case before and hide these fields if not
-Implement empty state messages according to this doc https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing
-The “Change” link in the tier row may shortly be removed for cases that are linked with NDelius. It will form a separate piece of work once this has been confirmed.
-We are suggesting to include COM email on this page. We do not currently display this in the service. This should be available from the Community API in the allOffenderManagers endpoint.
+    - Conditional release date
+    - Actual release date
+    - Parole eligibility date
+    - Tariff expiry date
+    - Home detention curfew actual date
+    - Home detention curfew eligibility date
+    - Sentence expiry
+    - Licence expiry
+    - Post-recall release
+    - Parole review date (soon to be renamed to Target parole hearing date)
+* Only show the Handover start date field if handover start date is different to Handover completion date
+* Hide the allocation history link in the More information section if prisoner has no allocation history
+* Show the name and email of the most recently allocated previous POM – only if if someone has worked on the case before and hide these fields if not
+* Implement empty state messages according to this doc https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing
+* The “Change” link in the tier row may shortly be removed for cases that are linked with NDelius. It will form a separate piece of work once this has been confirmed.
+* We are suggesting to include COM email on this page. We do not currently display this in the service. This should be available from the Community API in the allOffenderManagers endpoint.
 
 Allocate a POM 
 
