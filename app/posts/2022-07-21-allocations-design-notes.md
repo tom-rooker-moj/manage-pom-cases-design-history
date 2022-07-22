@@ -70,7 +70,6 @@ Most of the pages in the prototype are direct replacements for pages currently i
 * Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
 
 <table class="demo">
-	<caption>Table 1</caption>
 	<thead>
 	<tr>
 		<th>Condition</th>
@@ -95,21 +94,9 @@ Most of the pages in the prototype are direct replacements for pages currently i
 		<td>As {prisoner-name} is tier {tier}, we recommend allocating to a prison POM</td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
+		<td>If the POM is not responsible</td>
+		<td>Prison POM</td>
+		<td>{prisoner-name} needs a POM in a supporting role, so should be allocated to a prison POM</td>
 	</tr>
 	<tbody>
 </table>
-
-| Condition                                                     | POM type needed         | Text to display         |
-| :-------------------------------------------------------------|:------------------------|:------------------------|
-| If it's an immigration case                                   | Prison POM              | This is an immigration case, so should be given to a prison    POM                  |
-| If the POM is responsible and the offender is tier A or B     | Probation POM           |   $12                   |
-| If the POM is responsible and the offender is not tier A or B | Prison POM              | are neat                | 
-| If the POM is not responsible                                 | Prison POM              |                         | 
