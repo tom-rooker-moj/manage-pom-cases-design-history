@@ -69,8 +69,47 @@ Most of the pages in the prototype are direct replacements for pages currently i
 * Sentence underneath “Choose a POM” header should change depending on recommended POM type
 * Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
 
-| Tables                    | Are                     | Cool                    |
-| :------------------------ |:------------------------|:------------------------|
-| col 3 is                  | right-aligned           | $1600                   |
-| col 2 is                  | centered                |   $12                   |
-| zebra stripes             | are neat                |    $1                   |
+<table class="demo">
+	<caption>Table 1</caption>
+	<thead>
+	<tr>
+		<th>Condition</th>
+		<th>POM type needed</th>
+		<th>Text to display</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>If it's an immigration case</td>
+		<td>Prison POM</td>
+		<td>This is an immigration case, so should be given to a prison POM</td>
+	</tr>
+	<tr>
+		<td>If the POM is responsible and the offender is tier A or B</td>
+		<td>Probation POM</td>
+		<td>{prisoner-name} is tier {tier}, so we recommend allocating to a probation POM</td>
+	</tr>
+	<tr>
+		<td>If the POM is responsible and the offender is not tier A or B</td>
+		<td>Prison POM</td>
+		<td>As {prisoner-name} is tier {tier}, we recommend allocating to a prison POM</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tbody>
+</table>
+
+| Condition                                                     | POM type needed         | Text to display         |
+| :-------------------------------------------------------------|:------------------------|:------------------------|
+| If it's an immigration case                                   | Prison POM              | This is an immigration case, so should be given to a prison    POM                  |
+| If the POM is responsible and the offender is tier A or B     | Probation POM           |   $12                   |
+| If the POM is responsible and the offender is not tier A or B | Prison POM              | are neat                | 
+| If the POM is not responsible                                 | Prison POM              |                         | 
