@@ -1,6 +1,6 @@
 ---
 title: MPC allocations – design notes
-description: Further details about the new allocations journeys
+description: Details of the new allocations journeys
 date: 2022-07-21
 ---
 
