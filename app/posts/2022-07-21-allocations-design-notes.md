@@ -100,3 +100,86 @@ Most of the pages in the prototype are direct replacements for pages currently i
 	</tr>
 	<tbody>
 </table>
+
+* Display names of the last 3 POMs who have worked with the prisoner before and the dates they were allocated. Hide if no POMs at the prison have worked with the prisoner before
+* Table sorting should be in this order:
+    1. POM role – placing recommended POM role at the top 
+    2. Previously allocated POMs 
+    3. Total cases – place POMs with fewest cases at the top
+* A complexity of need column will need to be added to the table for women’s prisons. This is in the live service at the moment, so will just be a case of ensuring it is in the new design as well.
+* If a POM is chosen that is not the recommended type, the user should be taken to the existing “Why are you allocating a prison/probation POM?” page
+
+### Compare POMs
+
+This is a new page that doesn’t have a direct replacement in the live service.
+**It is this page in the prototype**:  https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith
+
+#### Main features
+
+* Highlight any POMs who have been previously allocated to work with this person
+* Case mix graphics come from caseload pages so styling can be reused
+* The parole cases count on the Compare POMs screens will also need to implemented once work on the new parole information has been completed. 
+* There is a box about OASys assessments due in the next 2 months. This is dependent on the completion of this ticket https://dsdmoj.atlassian.net/browse/MO-1026. * Once this task is completed we will need to revisit the relevant label text to make sure it is consistent with the data that has been retrieved. 
+* If a POM is chosen that is not the recommended type, the user should be taken to the existing “Why are you allocating a prison/probation POM?” page
+
+### Check allocation details
+
+**Prototype link**: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step3-confirm-allocation-jack-smith
+**Replaces this link in the service**: https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate
+
+#### Main features
+
+* Hide risk information if there isn’t any to display (ie ROSH, MAPPA and alerts)
+* Only show the Handover start date field if handover start date is different to Handover completion date
+* Always show LDU/COM info, even if values are unknown
+
+### Allocation success message
+
+**The message at the top of this page in the prototype**: https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step4-success-msg-jack-smith
+**Replaces the success message at the top of this page**:https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated
+
+#### Main features
+
+Pull through content from Additional notes text box on Check allocation details page
+“Copy this information” button should copy the highlighted text to the clipboard 
+
+
+
+Reallocation
+
+The “Currently allocated to…” text appears below the main heading on each page in this journey.
+
+Only pages with changes that are different to those in the other journeys here are described. 
+
+See allocations
+
+Move Allocations h1 to top of page and add new subheading of See allocations
+Addition of Tier column
+Choosing a prisoner’s name on this list should take the user to the current “Reallocate a POM” page. There is currently no new version of this screen as there is for the allocation journey.   
+
+Review case details
+
+Add details of currently allocated 
+Text of the calls to action are also different on this page
+
+Allocate a POM 
+
+Currently allocated POM is also flagged in the table. If the currently allocated POM has also previously worked with the prisoner, we should only display the “Currently allocated” label on the table. 
+Previously allocated POMs should also be shown at the top of the table. If the currently allocated POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section. 
+
+Compare POMs
+
+Only show details for the currently allocated POM as shown in the prototype if they are selected on the previous page
+
+
+Confirm allocation for Simon Riley 
+
+Choosing continue effectively exits the journey back to the See allocations page with the message in the prototype – no email should be sent to the POM 
+
+Co-working POM allocation 
+
+The “Primary POM” text should be displayed under each heading in the journey.
+
+Allocate a co-working POM
+
+Primary POM should be highlighted here as shown in the prototype. If the primary POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section.
