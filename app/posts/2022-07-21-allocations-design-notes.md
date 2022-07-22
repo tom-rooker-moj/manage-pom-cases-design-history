@@ -140,46 +140,71 @@ This is a new page that doesn’t have a direct replacement in the live service.
 
 #### Main features
 
-Pull through content from Additional notes text box on Check allocation details page
-“Copy this information” button should copy the highlighted text to the clipboard 
+* Pull through content from Additional notes text box on Check allocation details page
+* “Copy this information” button should copy the highlighted text to the clipboard 
 
-
-
-Reallocation
+## Reallocation
 
 The “Currently allocated to…” text appears below the main heading on each page in this journey.
 
 Only pages with changes that are different to those in the other journeys here are described. 
 
-See allocations
+### See allocations
 
-Move Allocations h1 to top of page and add new subheading of See allocations
-Addition of Tier column
-Choosing a prisoner’s name on this list should take the user to the current “Reallocate a POM” page. There is currently no new version of this screen as there is for the allocation journey.   
+**Prototype link:** XXXXX
+**Replaces this page in the live service:** XXXXX
 
-Review case details
+#### Main features
+
+* Move Allocations h1 to top of page and add new subheading of See allocations
+* Addition of Tier column
+* Choosing a prisoner’s name on this list should take the user to the current “Reallocate a POM” page. There is currently no new version of this screen as there is for the allocation journey.   
+
+#### Review case details
+
+**Prototype link:** XXXXX
+**Replaces this page in the live service:** XXXXX
+
+#### Main features
 
 Add details of currently allocated 
 Text of the calls to action are also different on this page
 
-Allocate a POM 
+**Prototype link:** XXXXX
+**Replaces this page in the live service:** XXXXX
+
+#### Main features
 
 Currently allocated POM is also flagged in the table. If the currently allocated POM has also previously worked with the prisoner, we should only display the “Currently allocated” label on the table. 
 Previously allocated POMs should also be shown at the top of the table. If the currently allocated POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section. 
 
-Compare POMs
+### Compare POMs
 
-Only show details for the currently allocated POM as shown in the prototype if they are selected on the previous page
+**Prototype link:** XXXXX
+**Replaces this page in the live service:** XXXXX
 
+#### Main features
 
-Confirm allocation for Simon Riley 
+* Only show details for the currently allocated POM as shown in the prototype if they are selected on the previous page
 
-Choosing continue effectively exits the journey back to the See allocations page with the message in the prototype – no email should be sent to the POM 
+### Confirm allocation 
 
-Co-working POM allocation 
+This would be a new page.
+**Prototype link:** XXXXX
+
+#### Main features
+
+* Choosing continue effectively exits the journey back to the See allocations page with the message in the prototype – no email should be sent to the POM 
+
+## Co-working POM allocation 
 
 The “Primary POM” text should be displayed under each heading in the journey.
 
-Allocate a co-working POM
+### Allocate a co-working POM
+
+**Prototype link:** XXXXX
+**Replaces this page in the live service:** XXXXX
+
+#### Main features
 
 Primary POM should be highlighted here as shown in the prototype. If the primary POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section.
