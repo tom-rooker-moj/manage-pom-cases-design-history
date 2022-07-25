@@ -121,6 +121,7 @@ This is a new page that doesn’t have a direct replacement in the live service.
 * The parole cases count on the Compare POMs screens will also need to implemented once work on the new parole information screens has been completed. 
 * There is a box about OASys assessments due in the next 2 months. This is dependent on the completion of <a href="https://dsdmoj.atlassian.net/browse/MO-1026">this ticket</a>. Once this task is completed we will need to revisit the relevant label text to make sure it is consistent with the data that has been retrieved. 
 * If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. This page is currently live in the service, but needs updating slightly to reflect the version here.
+* The user should only be allowed to select 4 POMs to compare workloads for. If more than this are chosen, display the message on <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-error">this page</a>. 
 
 ### Check allocation details
 
