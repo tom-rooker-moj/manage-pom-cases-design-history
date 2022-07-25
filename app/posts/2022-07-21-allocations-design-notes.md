@@ -25,17 +25,21 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 #### Main features
 
-* New “Additional information” column showing if a prisoner is returning, new or on recall. Show both values on different lines if 2 are true – eg recall and new to the prison
+* New “Additional information” column displaying the values below. Show both values on different lines if 2 are true – eg recall and new to the prison.
+    - New to custody – never been in prison before
+	- New to this prison – been in prison before, but first time here
+	- Returning to this prison – been in this prison before
+    - Recall – been recalled to this prison
 * “Days waiting for allocation” on the current page changes to “Working days since entering the prison”. This new count should exclude weekends and bank holidays
 * Tier column is new to this page, but is used on several other pages in the service
 * “Case owner” on current page changes to “POM role needed” – values should be Supporting (replacing Community) or Responsible (replacing Custody)
 * “There are currently…” copy on current page should be removed
-* Current header of “Make new allocations” changes to “Make allocations”
+* Current header of “Make new allocations” changes to “Make allocations”. New header should be a h2. New h1 of Allocations should be added to the page.
 
 ### Review case details
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step1-review-case-jack-smith</a>
-**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff</a>
+**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G3782UC/staff">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G3782UC/staff</a>
 
 #### Main features
 
@@ -62,7 +66,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
 ### Allocate a POM 
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith</a>
-**Replaces the bottom part of this page in the service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff</a>
+**New page**
 
 #### Main features
 
@@ -107,12 +111,14 @@ Most of the pages in the prototype are direct replacements for pages currently i
     2. Previously allocated POMs 
     3. Total cases – place POMs with fewest cases at the top
 * A complexity of need column will need to be added to the table for women’s prisons. This is in the live service at the moment, so will just be a case of ensuring it is in the new design as well.
-* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. This page is currently live in the service, but needs updating slightly to reflect the version here.
+* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. Note: this is not a complete reflection of the current page but show the changes that's needed is removal of the word "officer" from the header.
 
 ### Compare POMs
 
-This is a new page that doesn’t have a direct replacement in the live service.
-**It is this page in the prototype**:  <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith</a>
+
+**Prototype link**: <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2b-select-pom-jack-smith</a>
+**New page**
+
 
 #### Main features
 
@@ -120,13 +126,13 @@ This is a new page that doesn’t have a direct replacement in the live service.
 * Case mix graphics come from caseload pages so styling can be reused
 * The parole cases count on the Compare POMs screens will also need to implemented once work on the new parole information screens has been completed. 
 * There is a box about OASys assessments due in the next 2 months. This is dependent on the completion of <a href="https://dsdmoj.atlassian.net/browse/MO-1026">this ticket</a>. Once this task is completed we will need to revisit the relevant label text to make sure it is consistent with the data that has been retrieved. 
-* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. This page is currently live in the service, but needs updating slightly to reflect the version here.
+* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. Note: this is not a complete reflection of the current page but show the changes that's needed is removal of the word "officer" from the header.
 * The user should only be allowed to select 4 POMs to compare workloads for. If more than this are chosen, display the message on <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-error">this page</a>. 
 
 ### Check allocation details
 
 **Prototype link**: <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step3-confirm-allocation-jack-smith">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step3-confirm-allocation-jack-smith</a>
-**Replaces this link in the service**: <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate</a>
+**Replaces this page in the service**: <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G7578GR/staff/485787/build_allocations/allocate</a>
 
 #### Main features
 
@@ -153,7 +159,7 @@ Only pages with changes that are different to those in the other journeys here a
 ### See allocations
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/see-allocations">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/see-allocations</a>
-**Replaces this page in the live service:** Dev environment is down – link to follow
+**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/allocated">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/allocated</a>
 
 #### Main features
 
@@ -164,17 +170,16 @@ Only pages with changes that are different to those in the other journeys here a
 #### Review case details
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley</a>
-**Replaces this page in the live service:** Dev environment is down – link to follow
+**New page**
 
 #### Main features
 
 * Add details of currently allocated POM in the at a glance box as per the prototype
-* Text of the calls to action are also different on this page
 
 ### Allocate a POM
 
-**Prototype link:** <a href="">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2-select-pom-simon-riley</a>
-**Replaces this page in the live service:** Dev environment is down – link to follow
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2-select-pom-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2-select-pom-simon-riley</a>
+**New page**
 
 #### Main features
 
@@ -184,7 +189,7 @@ Only pages with changes that are different to those in the other journeys here a
 ### Compare POMs
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2b-select-pom-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2b-select-pom-simon-riley</a>
-**Replaces this page in the live service:** Dev environment is down – link to follow
+**New page in this journey**
 
 #### Main features
 
@@ -192,8 +197,8 @@ Only pages with changes that are different to those in the other journeys here a
 
 ### Confirm allocation 
 
-This would be a new page.
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step3b-validate-allocation-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step3b-validate-allocation-simon-riley</a>
+**New page**
 
 #### Main features
 
@@ -203,10 +208,10 @@ This would be a new page.
 
 The “Primary POM” text should be displayed under each heading in the journey.
 
-### Allocate a co-working POM
+### Review case details
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/review-case">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/review-case</a>
-**Replaces this page in the live service:** Dev environment is down – link to follow
+**New page**
 
 * Primary POM details should be shown as per the prototype
 * Text of calls to actions on this page is also different to the main allocations journey 
@@ -219,3 +224,12 @@ The “Primary POM” text should be displayed under each heading in the journey
 #### Main features
 
 * Primary POM should be highlighted here as shown in the prototype. If the primary POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section.
+
+### Compare co-working POMs
+
+#### Main features
+
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/compare-pom">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/compare-pom</a>
+**New page**
+
+* Highlight the Primary POM on the card with the allocate button disabled if the primary POM has been selected on the previous screen.
