@@ -227,9 +227,18 @@ The “Primary POM” text should be displayed under each heading in the journey
 
 ### Compare co-working POMs
 
-#### Main features
-
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/compare-pom">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/compare-pom</a>
 **New page**
 
+#### Main features
+
 * Highlight the Primary POM on the card with the allocate button disabled if the primary POM has been selected on the previous screen.
+
+### Compare co-working POMs
+
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/confirm-allocation">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/confirm-allocation</a>
+**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/coworking/confirm/G8859UP/486154/485982">https://dev.moic.service.justice.gov.uk/prisons/LEI/coworking/confirm/G8859UP/486154/485982</a>
+
+#### Main features
+
+* Add details of primary and co-working POM as per prototype
