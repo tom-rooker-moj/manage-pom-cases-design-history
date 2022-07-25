@@ -14,9 +14,9 @@ Aims of the work:
 2. Allow the HOMD to compare the workloads of different POMs, so cases can be allocated equitably around the team
 3. Be more transparent with some of the rules of the service to make it clearer why we recommend each type of POM
 
-## Allocations
-
 Most of the pages in the prototype are direct replacements for pages currently in the service.
+
+## Allocations
 
 ### Make allocations
 
@@ -25,9 +25,9 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 #### Main features
 
-* New “Additional information” column showing if a prisoner is returning, new or on recall. Show both values if 2 are true - eg recall and new to the prisoner
+* New “Additional information” column showing if a prisoner is returning, new or on recall. Show both values on different lines if 2 are true – eg recall and new to the prison
 * “Days waiting for allocation” on the current page changes to “Working days since entering the prison”. This new count should exclude weekends and bank holidays
-* Tier column is new
+* Tier column is new to this page, but is used on several other pages in the service
 * “Case owner” on current page changes to “POM role needed” – values should be Supporting (replacing Community) or Responsible (replacing Custody)
 * “There are currently…” copy on current page should be removed
 * Current header of “Make new allocations” changes to “Make allocations”
@@ -40,8 +40,8 @@ Most of the pages in the prototype are direct replacements for pages currently i
 #### Main features
 
 * Layout of current page should be reformatted in line with the prototype – main changes include introducing the “at a glance” box and new accordions
-* Add risk information at the side of the page. This is dependent on this ticket being completed, which should help developers get a sense of the technical architecture involved in retrieving this data. 
-* In Sentence and offence accordion, only display the release dates we have for the prisoner in this format:
+* Add risk information at the side of the page. This is dependent on <a href="https://dsdmoj.atlassian.net/browse/MO-1051">this ticket</a> being completed, which should help developers get a sense of the technical architecture involved in retrieving this data. 
+* In the Sentence and offence accordion, only display the release dates we have for the prisoner in the following format:
     - Conditional release date
     - Actual release date
     - Parole eligibility date
@@ -54,7 +54,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
     - Parole review date (soon to be renamed to Target parole hearing date)
 * Only show the Handover start date field if handover start date is different to Handover completion date
 * Hide the allocation history link in the More information section if prisoner has no allocation history
-* Show the name and email of the most recently allocated previous POM – only if if someone has worked on the case before and hide these fields if not
+* Show the name and email of the most recently allocated previous POM – only if someone has worked on the case before. Hide these fields if not
 * Implement empty state messages according to this doc <a href="https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing">https://docs.google.com/document/d/1gnIMpDT3XuZAZSKmDM-h7taIIjKw7ojnpm1JipbC578/edit?usp=sharing</a>
 * The “Change” link in the tier row may shortly be removed for cases that are linked with NDelius. It will form a separate piece of work once this has been confirmed.
 * We are suggesting to include COM email on this page. We do not currently display this in the service. This should be available from the Community API in the allOffenderManagers endpoint.
@@ -67,7 +67,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
 #### Main features
 
 * Sentence underneath “Choose a POM” header should change depending on recommended POM type
-* Page contains an explanation for the recommendation of which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
+* Page contains an explanation of the recommendation for which type of POM should be selected. The text for each of the conditions covered in the current logic is as follows:
 
 <table>
 	<thead>
@@ -107,7 +107,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
     2. Previously allocated POMs 
     3. Total cases – place POMs with fewest cases at the top
 * A complexity of need column will need to be added to the table for women’s prisons. This is in the live service at the moment, so will just be a case of ensuring it is in the new design as well.
-* If a POM is chosen that is not the recommended type, the user should be taken to the existing “Why are you allocating a prison/probation POM?” page
+* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. This page is currently live in the service, but needs updating slightly to reflect the version here.
 
 ### Compare POMs
 
@@ -118,9 +118,9 @@ This is a new page that doesn’t have a direct replacement in the live service.
 
 * Highlight any POMs who have been previously allocated to work with this person
 * Case mix graphics come from caseload pages so styling can be reused
-* The parole cases count on the Compare POMs screens will also need to implemented once work on the new parole information has been completed. 
-* There is a box about OASys assessments due in the next 2 months. This is dependent on the completion of this ticket https://dsdmoj.atlassian.net/browse/MO-1026. * Once this task is completed we will need to revisit the relevant label text to make sure it is consistent with the data that has been retrieved. 
-* If a POM is chosen that is not the recommended type, the user should be taken to the existing “Why are you allocating a prison/probation POM?” page
+* The parole cases count on the Compare POMs screens will also need to implemented once work on the new parole information screens has been completed. 
+* There is a box about OASys assessments due in the next 2 months. This is dependent on the completion of <a href="https://dsdmoj.atlassian.net/browse/MO-1026">this ticket</a>. Once this task is completed we will need to revisit the relevant label text to make sure it is consistent with the data that has been retrieved. 
+* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. This page is currently live in the service, but needs updating slightly to reflect the version here.
 
 ### Check allocation details
 
@@ -141,7 +141,7 @@ This is a new page that doesn’t have a direct replacement in the live service.
 #### Main features
 
 * Pull through content from Additional notes text box on Check allocation details page
-* “Copy this information” button should copy the highlighted text to the clipboard 
+* “Copy this information” button should copy the text in the dropdown to the clipboard 
 
 ## Reallocation
 
@@ -152,7 +152,7 @@ Only pages with changes that are different to those in the other journeys here a
 ### See allocations
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/see-allocations">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/see-allocations</a>
-**Replaces this page in the live service:** XXXXX
+**Replaces this page in the live service:** Dev environment is down – link to follow
 
 #### Main features
 
@@ -163,31 +163,31 @@ Only pages with changes that are different to those in the other journeys here a
 #### Review case details
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley</a>
-**Replaces this page in the live service:** XXXXX
+**Replaces this page in the live service:** Dev environment is down – link to follow
 
 #### Main features
 
-* Add details of currently allocated 
+* Add details of currently allocated POM in the at a glance box as per the prototype
 * Text of the calls to action are also different on this page
 
 ### Allocate a POM
 
 **Prototype link:** <a href="">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2-select-pom-simon-riley</a>
-**Replaces this page in the live service:** XXXXX
+**Replaces this page in the live service:** Dev environment is down – link to follow
 
 #### Main features
 
+* Previously allocated POMs should be shown at the top of the table. If the currently allocated POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section. 
 * Currently allocated POM is also flagged in the table. If the currently allocated POM has also previously worked with the prisoner, we should only display the “Currently allocated” label on the table. 
-* Previously allocated POMs should also be shown at the top of the table. If the currently allocated POM has also previously worked with the prisoner, we should show their name in the the Previously allocated section. 
 
 ### Compare POMs
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2b-select-pom-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step2b-select-pom-simon-riley</a>
-**Replaces this page in the live service:** XXXXX
+**Replaces this page in the live service:** Dev environment is down – link to follow
 
 #### Main features
 
-* Only show details for the currently allocated POM as shown in the prototype if they are selected on the previous page
+* Only show details for the currently allocated POM as per in the prototype if they are selected on the previous page
 
 ### Confirm allocation 
 
@@ -204,8 +204,16 @@ The “Primary POM” text should be displayed under each heading in the journey
 
 ### Allocate a co-working POM
 
+**Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/review-case">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/review-case</a>
+**Replaces this page in the live service:** Dev environment is down – link to follow
+
+* Primary POM details should be shown as per the prototype
+* Text of calls to actions on this page is also different to the main allocations journey 
+
+### Allocate a co-working POM
+
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/select-pom">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/select-pom</a>
-**Replaces this page in the live service:** XXXXX
+**Replaces this page in the live service:** Dev environment is down – link to follow
 
 #### Main features
 
