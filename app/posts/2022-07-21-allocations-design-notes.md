@@ -21,7 +21,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
 ### Make allocations
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations</a>
-**Replaces this page in the live service:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/make-allocations">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated</a>
+**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated">https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/unallocated</a>
 
 #### Main features
 
@@ -111,7 +111,7 @@ Most of the pages in the prototype are direct replacements for pages currently i
     2. Previously allocated POMs 
     3. Total cases – place POMs with fewest cases at the top
 * A complexity of need column will need to be added to the table for women’s prisons. This is in the live service at the moment, so will just be a case of ensuring it is in the new design as well.
-* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. Note: this is not a complete reflection of the current page but show the changes that's needed is removal of the word "officer" from the header.
+* If a POM is chosen that is not the recommended type, the user should be taken to the <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/step2-select-pom-jack-smith-override">“Why are you allocating a prison/probation POM?” page</a>. Note: this is not a complete reflection of the <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/prisoners/G3782UC/staff/486649/build_allocations/override">current page</a> but shows the change that's needed is removal of the word "officer" across the page.
 
 ### Compare POMs
 
@@ -167,7 +167,7 @@ Only pages with changes that are different to those in the other journeys here a
 * Addition of Tier column
 * Choosing a prisoner’s name on this list should take the user to the current “Reallocate a POM” page. There is currently no new version of this screen as there is for the allocation journey.   
 
-#### Review case details
+### Review case details
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/reallocate/step1-review-case-simon-riley</a>
 **New page**
@@ -219,7 +219,7 @@ The “Primary POM” text should be displayed under each heading in the journey
 ### Allocate a co-working POM
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/select-pom">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/select-pom</a>
-**Replaces this page in the live service:** Dev environment is down – link to follow
+**Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/coworking/A8827DY/new">https://dev.moic.service.justice.gov.uk/prisons/LEI/coworking/A8827DY/new</a>
 
 #### Main features
 
@@ -234,7 +234,7 @@ The “Primary POM” text should be displayed under each heading in the journey
 
 * Highlight the Primary POM on the card with the allocate button disabled if the primary POM has been selected on the previous screen.
 
-### Compare co-working POMs
+### Check co-working allocation details
 
 **Prototype link:** <a href="https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/confirm-allocation">https://hmpps-moic-prototype.apps.live.cloud-platform.service.justice.gov.uk/allocations/final/coworking/confirm-allocation</a>
 **Replaces this page in the live service:** <a href="https://dev.moic.service.justice.gov.uk/prisons/LEI/coworking/confirm/G8859UP/486154/485982">https://dev.moic.service.justice.gov.uk/prisons/LEI/coworking/confirm/G8859UP/486154/485982</a>
