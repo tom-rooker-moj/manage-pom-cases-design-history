@@ -25,12 +25,12 @@ Most of the pages in the prototype are direct replacements for pages currently i
 
 #### Main features
 
-* New “Additional information” column displaying the values below. Show both values on different lines if 2 are true – eg recall and new to the prison.
+* New “Additional information” column displaying the values below. Show both values on different lines if 2 are true – eg recall and new to the prison. Show recall on the top line if more than one value for additional information is true.
     - New to custody – never been in prison before
 	- New to this prison – been in prison before, but first time here
 	- Returning to this prison – been in this prison before
     - Recall – been recalled to this prison
-* “Days waiting for allocation” on the current page changes to “Working days since entering the prison”. This new count should exclude weekends and bank holidays
+* “Days waiting for allocation” on the current page changes to “Working days since entering this prison”. This new count should exclude weekends and bank holidays
 * Tier column is new to this page, but is used on several other pages in the service
 * “Case owner” on current page changes to “POM role needed” – values should be Supporting (replacing Community) or Responsible (replacing Custody)
 * “There are currently…” copy on current page should be removed
