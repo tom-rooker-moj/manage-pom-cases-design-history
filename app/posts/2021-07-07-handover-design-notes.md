@@ -20,9 +20,9 @@ This post outlines UI behaviour that may not be properly reflected or immediatel
 
 Both the POM view and the HOMD view share the same main tables. These are Upcoming handovers, Handovers in progress, Overdue tasks and COM allocation overdue.
 
-* Cases appear on the Upcoming table 8 weeks before the COM allocation date
-* They move from Upcoming to In progress on the date of COM allocation, even if a COM has not been allocated. If a COM is allocated early, the case should move to the In progress tab
-* If a case is missing COM details 48 hours after the COM allocation date (or COM responisble date in indeterminate cases), it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table. The 48 hours condition reflects a stiuplation in a service level agreement that states LDUs have this amount of time to allocate a COM.
+* Cases appear on the Upcoming table 8 weeks before the COM responsible date
+* They move from Upcoming to In progress on the date the COM becomes responsible, even if a COM has not been allocated. If a COM is allocated early, the case should move to the In progress tab
+* If a case is missing COM details 48 hours after the COM responsible date, it should remain on the In progress table. However, it should also be displayed on the COM allocation overdue table. Once a case is allocated a COM, it should be removed from this table. The 48 hours condition reflects a stiuplation in a service level agreement that states LDUs have this amount of time to allocate a COM.
 * A case should stay on the In progress table until the release date is reached.
 
 ### Pagination 
@@ -102,11 +102,6 @@ We use purple and red highlights on the tables to flag up important dates. The r
 
 Orginally the purple highlight was green. We changed this to avoid suggesting that a handover has been completed once it turns green. In fact, there may still be work to do on the COM side or additional POM tasks that aren't included in our task list.
 
-### If tasks are outstanding on a case that a COM has been supporting
-
-* 21 days before COM becomes responsible: Case turns purple and the text "Handover due soon" is displayed
-* On the day COM becomes responsible: Case turns red and the text "Handover tasks overdue" is displayed
-
 ### If tasks are outstanding on cases where COM becomes responsible on the day of allocation
 
 * 14 days before COM allocation: Case turns purple and the text "Handover due soon" is displayed
@@ -114,7 +109,7 @@ Orginally the purple highlight was green. We changed this to avoid suggesting th
 
 ### If COM allocation is overdue on any kind of case
 
-* Case turns red if no COM has been assigned 48 hours after COM allocation date
+* Case turns red if no COM has been assigned 48 hours after COM responsibility date
 * It stays red until a COM is allocated
 
 ## Handover task list
@@ -138,7 +133,7 @@ Eventually, there will be no difference between handovers for NPS and CRC cases 
 
 ## Link to EQuiP handover guidance
 
-The POM view contains a sidebar with links to some handover guidance on EQuiP. The URL for this is: https://equip-portal.rocstac.com/CtrlWebIsapi.dll/?__id=docDetails.showDoc&doc=9AFC7FAAF4CA4B88BCCAEB9320C31F94&dpt=1
+The POM view contains a sidebar with links to some handover guidance on EQuiP. The URL for this is: https://equip-portal.rocstac.com
 
 ## Managing email reminders
 
@@ -150,19 +145,17 @@ Part of the feature involves sending reminder emails at important points in the 
 
 This is when each email should be sent:
 
-### 8 weeks before COM allocation
+### 8 weeks before COM becomes responsible 
 
 Send this email:
 
-* For all types of case
-* 8 weeks before date of COM allocation
+* 8 weeks before COM becomes responsible 
 
 ### When a COM has been allocated
 
 Send this email:
 
-* For all cases
-* On the date of COM allocation
+* On the date COM becomes responsible
 * As long as COM has been allocated
 
 ### COM allocation overdue
@@ -170,24 +163,8 @@ Send this email:
 Send this email:
 
 * For all types of case
-* 14 days after COM allocation
+* 14 days after COM becomes responsible
 * If a COM has not been allocated
-
-### To check handover tasks are in hand towards the end of the process
-
-Send this email:
-
-* For all types of case that have had a supporting COM
-* 14 days before COM takes responsibility 
-* If a COM has been allocated
-
-### When a COM has become responsible 
-
-Send this email:
-
-* For all types of case that have had a supporting COM
-* On the date that COM takes responsibility
-* If a COM has been allocated
 
 ## Revised dashboard tiles
 
