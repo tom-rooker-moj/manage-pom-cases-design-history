@@ -32,7 +32,7 @@ spec:
   selector:
     app: manage-pom-cases-design-history
 ---
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: design-history-ingress
